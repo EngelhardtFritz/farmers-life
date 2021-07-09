@@ -1,0 +1,19 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shaped",
+  "pattern": [
+    "#X#",
+    "# #",
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "X": {
+      "item": "asheriitsfarmerslife:wood_barrel_lid"
+    }
+  },
+  "result": {
+    "item": "asheriitsfarmerslife:wood_fluid_storage_barrel"
+  }
+}

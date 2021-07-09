@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "asheriitsfarmerslife:wine_press"
+    ]
+  },
+  "criteria": {
+    "has_stomping_barrel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "asheriitsfarmerslife:stomping_barrel"
+          }
+        ]
+      }
+    },
+    "has_redstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:redstone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "asheriitsfarmerslife:wine_press"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stomping_barrel",
+      "has_redstone",
+      "has_the_recipe"
+    ]
+  ]
+}

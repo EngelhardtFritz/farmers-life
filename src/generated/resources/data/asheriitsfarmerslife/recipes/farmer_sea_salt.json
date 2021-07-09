@@ -1,0 +1,13 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shapeless",
+  "group": "salt",
+  "ingredients": [
+    {
+      "item": "asheriitsfarmerslife:compressed_sea_salt"
+    }
+  ],
+  "result": {
+    "item": "asheriitsfarmerslife:sea_salt",
+    "count": 9
+  }
+}

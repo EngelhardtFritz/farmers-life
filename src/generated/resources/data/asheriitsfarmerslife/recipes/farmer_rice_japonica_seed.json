@@ -1,0 +1,13 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shapeless",
+  "group": "rice_seeds",
+  "ingredients": [
+    {
+      "item": "asheriitsfarmerslife:rice_japonica_crop"
+    }
+  ],
+  "result": {
+    "item": "asheriitsfarmerslife:rice_japonica_seed",
+    "count": 4
+  }
+}

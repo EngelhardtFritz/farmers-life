@@ -1,0 +1,36 @@
+{
+  "advancements": [
+    {
+      "conditions": [
+        {
+          "load_recipe": true,
+          "type": "asheriitsfarmerslife:load_vanilla_additions_recipes"
+        }
+      ],
+      "advancement": {
+        "rewards": {
+          "recipes": [
+            "minecraft:wheat_seeds"
+          ]
+        },
+        "criteria": {
+          "has_wheat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "item": "minecraft:wheat"
+                }
+              ]
+            }
+          }
+        },
+        "requirements": [
+          [
+            "has_wheat"
+          ]
+        ]
+      }
+    }
+  ]
+}

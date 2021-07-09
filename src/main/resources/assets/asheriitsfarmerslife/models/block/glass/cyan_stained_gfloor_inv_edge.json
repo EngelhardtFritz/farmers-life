@@ -1,0 +1,77 @@
+{
+	"credit": "Asheriit",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "minecraft:block/cyan_stained_glass",
+		"1": "asheriitsfarmerslife:blocks/cyan_stained_glass_floor_top",
+		"particle": "minecraft:block/cyan_stained_glass"
+	},
+	"elements": [
+		{
+			"name": "gfloor_cube_detail",
+			"from": [2, -0.05, 11],
+			"to": [5, 1, 14],
+			"faces": {
+				"down": {"uv": [2, 2, 5, 5], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "gfloor_edge",
+			"from": [9, 0, 7],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [23, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 7, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "gfloor_side_part",
+			"from": [8, 0, 0],
+			"to": [9, 16, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 8, 8]},
+			"faces": {
+				"east": {"uv": [9, 0, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "gfloor_top",
+			"from": [0, 15, 0],
+			"to": [9, 16, 16],
+			"faces": {
+				"up": {"uv": [7, 0, 16, 16], "rotation": 180, "texture": "#1"}
+			}
+		},
+		{
+			"name": "gfloor_top",
+			"from": [9, 15, 7],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 8, 8]},
+			"faces": {
+				"up": {"uv": [0, 0, 7, 9], "rotation": 180, "texture": "#1"}
+			}
+		},
+		{
+			"name": "gfloor_bot",
+			"from": [0, 0, 0],
+			"to": [9, 1, 7],
+			"faces": {
+				"down": {"uv": [0, 0, 7, 9], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"name": "gfloor_bot",
+			"from": [0, 0, 7],
+			"to": [16, 1, 16],
+			"faces": {
+				"down": {"uv": [7, 0, 16, 16], "rotation": 270, "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "gfloor_inv_edge",
+			"origin": [11, 12, 5],
+			"children": [0, 1, 1, 2, 3, 4, 5, 6]
+		}
+	]
+}

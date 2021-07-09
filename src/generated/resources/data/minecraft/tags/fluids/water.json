@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:must",
+    "#forge:fermented_must",
+    "#forge:filtered_must",
+    "#forge:wine",
+    "#forge:sake",
+    "#forge:sake/steps"
+  ]
+}

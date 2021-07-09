@@ -1,0 +1,12 @@
+{
+   "type": "asheriitsfarmerslife:fermenting",
+   "ingredientFluid": {
+      "fluid": "asheriitsfarmerslife:riesling_must_fluid",
+      "amount": 2000
+   },
+   "outputFluid": {
+      "fluid": "asheriitsfarmerslife:fermented_riesling_must_fluid",
+      "amount": 2000
+   },
+   "processTime": 6000
+}

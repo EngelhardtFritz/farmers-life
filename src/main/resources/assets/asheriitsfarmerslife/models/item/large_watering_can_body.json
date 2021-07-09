@@ -1,0 +1,6 @@
+{
+   "parent": "item/handheld",
+   "textures": {
+      "layer0": "asheriitsfarmerslife:items/large_watering_can_body"
+   }
+}

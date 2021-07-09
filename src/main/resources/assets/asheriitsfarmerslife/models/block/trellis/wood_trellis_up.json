@@ -1,0 +1,22 @@
+{
+	"credit": "Asheriit",
+	"textures": {
+		"0": "asheriitsfarmerslife:blocks/wood_trellis",
+		"particle": "asheriitsfarmerslife:blocks/wood_trellis"
+	},
+	"elements": [
+		{
+			"from": [7, 11, 7],
+			"to": [9, 11, 9],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 10, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 2], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 2], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 2], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 2], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [8, 0, 10, 2], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"display": {}
+}

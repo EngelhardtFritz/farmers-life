@@ -1,0 +1,12 @@
+{
+   "conditions": [
+      {
+         "condition": "minecraft:random_chance",
+         "chance": 1.0
+      }
+   ],
+   "chance_stage_1": 0.4,
+   "chance_stage_2": 0.6,
+   "chance_stage_3": 0.8,
+   "multiplier": 2
+}

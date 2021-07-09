@@ -1,0 +1,12 @@
+{
+   "type": "asheriitsfarmerslife:aging",
+   "inputIngredient": {
+      "item": "asheriitsfarmerslife:koshu_wine_bottle",
+      "count": 1
+   },
+   "recipeOutput": {
+      "item": "asheriitsfarmerslife:aged_koshu_wine_bottle",
+      "count": 1
+   },
+   "processTime": 12000
+}

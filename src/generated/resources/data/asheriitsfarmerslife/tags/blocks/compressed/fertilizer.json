@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "asheriitsfarmerslife:compressed_raw_animal_waste_fertilizer",
+    "asheriitsfarmerslife:compressed_raw_peat_fertilizer",
+    "asheriitsfarmerslife:compressed_raw_plant_type_fertilizer"
+  ]
+}

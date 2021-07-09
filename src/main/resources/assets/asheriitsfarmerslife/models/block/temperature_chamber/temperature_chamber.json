@@ -1,0 +1,121 @@
+{
+	"credit": "Asheriit",
+	"textures": {
+		"center": "block/obsidian",
+		"chamber": "asheriitsfarmerslife:blocks/temperature_chamber/temperature_chamber",
+		"top": "asheriitsfarmerslife:blocks/temperature_chamber/temperature_chamber_top",
+		"bottom": "block/cauldron_inner",
+		"side": "asheriitsfarmerslife:blocks/temperature_chamber/temperature_chamber_side",
+		"particle": "asheriitsfarmerslife:blocks/temperature_chamber/temperature_chamber"
+	},
+	"elements": [
+		{
+			"name": "top",
+			"from": [0, 11, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 5], "texture": "#side", "cullface": "north"},
+				"east": {"uv": [0, 11, 16, 16], "texture": "#chamber", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 5], "texture": "#side", "cullface": "south"},
+				"west": {"uv": [0, 11, 16, 16], "texture": "#chamber", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#top"}
+			}
+		},
+		{
+			"name": "center",
+			"from": [0.5, 10, 0.5],
+			"to": [15.5, 11, 15.5],
+			"faces": {
+				"north": {"uv": [0, 0, 15, 1], "texture": "#center"},
+				"east": {"uv": [0, 0, 15, 1], "texture": "#center"},
+				"south": {"uv": [0, 0, 15, 1], "texture": "#center"},
+				"west": {"uv": [0, 0, 15, 1], "texture": "#center"}
+			}
+		},
+		{
+			"name": "bot",
+			"from": [0, 2, 0],
+			"to": [16, 10, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 8], "texture": "#chamber", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 8], "texture": "#chamber", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 8], "texture": "#chamber", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 8], "texture": "#chamber", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom"}
+			}
+		},
+		{
+			"name": "foot",
+			"from": [0, 0, 0],
+			"to": [3, 2, 3],
+			"faces": {
+				"north": {"uv": [1, 9, 4, 11], "texture": "#chamber", "cullface": "north"},
+				"east": {"uv": [8, 9, 5, 11], "rotation": 180, "texture": "#chamber"},
+				"south": {"uv": [3, 7, 6, 9], "texture": "#chamber"},
+				"west": {"uv": [1, 9, 4, 11], "texture": "#chamber", "cullface": "west"},
+				"down": {"uv": [7, 8, 10, 11], "texture": "#chamber", "cullface": "down"}
+			}
+		},
+		{
+			"name": "foot",
+			"from": [13, 0, 0],
+			"to": [16, 2, 3],
+			"faces": {
+				"north": {"uv": [12, 9, 15, 11], "texture": "#chamber", "cullface": "west"},
+				"east": {"uv": [12, 9, 15, 11], "texture": "#chamber", "cullface": "north"},
+				"south": {"uv": [13, 7, 10, 9], "texture": "#chamber"},
+				"west": {"uv": [3, 7, 6, 9], "texture": "#chamber"},
+				"down": {"uv": [7, 8, 10, 11], "rotation": 180, "texture": "#chamber", "cullface": "down"}
+			}
+		},
+		{
+			"name": "foot",
+			"from": [13, 0, 13],
+			"to": [16, 2, 16],
+			"faces": {
+				"north": {"uv": [3, 7, 6, 9], "texture": "#chamber"},
+				"east": {"uv": [12, 9, 15, 11], "texture": "#chamber", "cullface": "west"},
+				"south": {"uv": [1, 9, 4, 11], "texture": "#chamber", "cullface": "north"},
+				"west": {"uv": [13, 7, 10, 9], "texture": "#chamber"},
+				"down": {"uv": [7, 8, 10, 11], "rotation": 180, "texture": "#chamber", "cullface": "down"}
+			}
+		},
+		{
+			"name": "foot",
+			"from": [0, 0, 13],
+			"to": [3, 2, 16],
+			"faces": {
+				"north": {"uv": [13, 7, 10, 9], "texture": "#chamber"},
+				"east": {"uv": [3, 7, 6, 9], "texture": "#chamber"},
+				"south": {"uv": [12, 9, 15, 11], "texture": "#chamber", "cullface": "west"},
+				"west": {"uv": [1, 9, 4, 11], "texture": "#chamber", "cullface": "north"},
+				"down": {"uv": [7, 8, 10, 11], "texture": "#chamber", "cullface": "down"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -135, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, -135, 0],
+			"scale": [0.6, 0.6, 0.6]
+		}
+	}
+}

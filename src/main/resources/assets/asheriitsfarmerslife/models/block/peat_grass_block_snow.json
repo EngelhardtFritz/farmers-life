@@ -1,0 +1,9 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "particle": "minecraft:block/dirt",
+        "bottom": "asheriitsfarmerslife:blocks/compressed_raw_peat_fertilizer",
+        "top": "minecraft:block/grass_block_top",
+        "side": "asheriitsfarmerslife:blocks/peat_grass_snow"
+    }
+}

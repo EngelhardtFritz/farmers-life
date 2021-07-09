@@ -1,0 +1,35 @@
+{
+	"credit": "Asheriit",
+	"textures": {
+		"0": "minecraft:block/grass_block_side",
+		"1": "minecraft:block/grass_block_top",
+		"overlay": "minecraft:block/grass_block_side_overlay",
+		"particle": "minecraft:block/grass_block_side"
+	},
+	"elements": [
+		{
+			"name": "large_dam_side",
+			"from": [2, 0, 0],
+			"to": [14, 16, 2],
+			"faces": {
+				"north": {"uv": [2, 0, 14, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 2, 16], "texture": "#0"},
+				"south": {"uv": [2, 0, 14, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 2, 16], "texture": "#0"},
+				"up": {"uv": [2, 0, 14, 2], "texture": "#1", "tintindex": 0},
+				"down": {"uv": [2, 14, 14, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "large_dam_side_overlay",
+			"from": [2, 0, 0],
+			"to": [14, 16, 2],
+			"faces": {
+				"north": {"uv": [2, 0, 14, 16], "texture": "#overlay", "tintindex": 0},
+				"east": {"uv": [0, 0, 2, 16], "texture": "#overlay", "tintindex": 0},
+				"south": {"uv": [2, 0, 14, 16], "texture": "#overlay", "tintindex": 0},
+				"west": {"uv": [0, 0, 2, 16], "texture": "#overlay", "tintindex": 0}
+			}
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "asheriitsfarmerslife:compressed_raw_peat_fertilizer"
+    ]
+  },
+  "criteria": {
+    "has_raw_fertilizer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "asheriitsfarmerslife:raw_peat_fertilizer"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "asheriitsfarmerslife:compressed_raw_peat_fertilizer"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_fertilizer",
+      "has_the_recipe"
+    ]
+  ]
+}

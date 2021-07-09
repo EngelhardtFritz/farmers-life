@@ -1,0 +1,36 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shapeless",
+  "group": "compressed_raw_fertilizer",
+  "ingredients": [
+    {
+      "item": "asheriitsfarmerslife:raw_peat_fertilizer"
+    },
+    {
+      "item": "asheriitsfarmerslife:raw_peat_fertilizer"
+    },
+    {
+      "item": "asheriitsfarmerslife:raw_peat_fertilizer"
+    },
+    {
+      "item": "asheriitsfarmerslife:raw_peat_fertilizer"
+    },
+    {
+      "item": "asheriitsfarmerslife:raw_peat_fertilizer"
+    },
+    {
+      "item": "asheriitsfarmerslife:raw_peat_fertilizer"
+    },
+    {
+      "item": "asheriitsfarmerslife:raw_peat_fertilizer"
+    },
+    {
+      "item": "asheriitsfarmerslife:raw_peat_fertilizer"
+    },
+    {
+      "item": "asheriitsfarmerslife:raw_peat_fertilizer"
+    }
+  ],
+  "result": {
+    "item": "asheriitsfarmerslife:compressed_raw_peat_fertilizer"
+  }
+}

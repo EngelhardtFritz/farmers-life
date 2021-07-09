@@ -1,0 +1,22 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shaped",
+  "pattern": [
+    "LXL",
+    "# #",
+    "LXL"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "L": {
+      "tag": "minecraft:logs"
+    },
+    "X": {
+      "item": "asheriitsfarmerslife:wood_barrel_lid"
+    }
+  },
+  "result": {
+    "item": "asheriitsfarmerslife:fermenting_barrel"
+  }
+}

@@ -1,0 +1,18 @@
+{
+   "variants": {
+      "filled=false": { "model": "asheriitsfarmerslife:block/drying_bed/dirt_drying_bed_empty" },
+      "filled=true,age=0": { "model": "asheriitsfarmerslife:block/drying_bed/dirt_drying_bed_filled_0" },
+      "filled=true,age=1": [
+         { "model": "asheriitsfarmerslife:block/drying_bed/dirt_drying_bed_filled_1" },
+         { "model": "asheriitsfarmerslife:block/drying_bed/dirt_drying_bed_filled_1", "y": 90 }
+      ],
+      "filled=true,age=2": [
+         { "model": "asheriitsfarmerslife:block/drying_bed/dirt_drying_bed_filled_2" },
+         { "model": "asheriitsfarmerslife:block/drying_bed/dirt_drying_bed_filled_2", "y": 90 }
+      ],
+      "filled=true,age=3": [
+         { "model": "asheriitsfarmerslife:block/drying_bed/dirt_drying_bed_filled_3" },
+         { "model": "asheriitsfarmerslife:block/drying_bed/dirt_drying_bed_filled_3", "y": 90 }
+      ]
+   }
+}

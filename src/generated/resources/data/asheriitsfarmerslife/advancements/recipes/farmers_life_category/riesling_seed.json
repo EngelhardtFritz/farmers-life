@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "asheriitsfarmerslife:riesling_seed"
+    ]
+  },
+  "criteria": {
+    "has_seed_pouch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "asheriitsfarmerslife:seed_pouch"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "asheriitsfarmerslife:riesling_seed"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_seed_pouch",
+      "has_the_recipe"
+    ]
+  ]
+}

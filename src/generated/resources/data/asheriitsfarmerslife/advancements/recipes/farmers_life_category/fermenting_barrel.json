@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "asheriitsfarmerslife:fermenting_barrel"
+    ]
+  },
+  "criteria": {
+    "has_fluid_storage": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:planks"
+          }
+        ]
+      }
+    },
+    "has_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:logs"
+          }
+        ]
+      }
+    },
+    "has_wood_barrel_lid": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "asheriitsfarmerslife:wood_barrel_lid"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "asheriitsfarmerslife:fermenting_barrel"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_fluid_storage",
+      "has_planks",
+      "has_wood_barrel_lid",
+      "has_the_recipe"
+    ]
+  ]
+}

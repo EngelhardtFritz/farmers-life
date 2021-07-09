@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "forge:glass_panes"
+  },
+  "result": "asheriitsfarmerslife:molten_glass",
+  "experience": 0.15,
+  "cookingtime": 200
+}

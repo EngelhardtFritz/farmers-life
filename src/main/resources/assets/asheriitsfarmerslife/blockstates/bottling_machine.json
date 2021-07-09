@@ -1,0 +1,12 @@
+{
+   "variants": {
+      "facing=north,has_bottle_0=false": { "model": "asheriitsfarmerslife:block/bottling_machine/bottling_machine" },
+      "facing=east,has_bottle_0=false": { "model": "asheriitsfarmerslife:block/bottling_machine/bottling_machine", "y": 90 },
+      "facing=south,has_bottle_0=false": { "model": "asheriitsfarmerslife:block/bottling_machine/bottling_machine", "y": 180 },
+      "facing=west,has_bottle_0=false": { "model": "asheriitsfarmerslife:block/bottling_machine/bottling_machine", "y": 270 },
+      "facing=north,has_bottle_0=true": { "model": "asheriitsfarmerslife:block/bottling_machine/bottling_machine_botte_filled" },
+      "facing=east,has_bottle_0=true": { "model": "asheriitsfarmerslife:block/bottling_machine/bottling_machine_botte_filled", "y": 90 },
+      "facing=south,has_bottle_0=true": { "model": "asheriitsfarmerslife:block/bottling_machine/bottling_machine_botte_filled", "y": 180 },
+      "facing=west,has_bottle_0=true": { "model": "asheriitsfarmerslife:block/bottling_machine/bottling_machine_botte_filled", "y": 270 }
+   }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "asheriitsfarmerslife:chaff_rod"
+    ]
+  },
+  "criteria": {
+    "has_chaff": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "asheriitsfarmerslife:chaff"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "asheriitsfarmerslife:chaff_rod"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_chaff",
+      "has_the_recipe"
+    ]
+  ]
+}

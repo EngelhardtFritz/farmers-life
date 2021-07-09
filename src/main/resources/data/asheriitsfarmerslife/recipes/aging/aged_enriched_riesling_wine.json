@@ -1,0 +1,12 @@
+{
+   "type": "asheriitsfarmerslife:aging",
+   "inputIngredient": {
+      "item": "asheriitsfarmerslife:enriched_riesling_wine",
+      "count": 1
+   },
+   "recipeOutput": {
+      "item": "asheriitsfarmerslife:aged_enriched_riesling_wine",
+      "count": 1
+   },
+   "processTime": 12000
+}

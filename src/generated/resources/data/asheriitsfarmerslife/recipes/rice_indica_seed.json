@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "rice_seeds",
+  "ingredients": [
+    {
+      "item": "asheriitsfarmerslife:rice_indica_crop"
+    }
+  ],
+  "result": {
+    "item": "asheriitsfarmerslife:rice_indica_seed",
+    "count": 4
+  }
+}

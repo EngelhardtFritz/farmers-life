@@ -1,0 +1,6 @@
+{
+   "parent": "item/generated",
+   "textures": {
+      "layer0": "asheriitsfarmerslife:items/crops/rice_grains_black_japonica"
+   }
+}

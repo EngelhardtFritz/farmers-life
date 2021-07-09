@@ -1,0 +1,18 @@
+{
+   "type": "asheriitsfarmerslife:bottling",
+   "ingredientItems": [
+      {
+         "item": "asheriitsfarmerslife:corked_glass_bottle",
+         "count": 1
+      }
+   ],
+   "ingredientFluid": {
+      "fluid": "asheriitsfarmerslife:cabernet_sauvignon_wine_fluid",
+      "amount": 500
+   },
+   "result": {
+      "item": "asheriitsfarmerslife:cabernet_sauvignon_wine_bottle",
+      "count": 1
+   },
+   "processTime": 200
+}

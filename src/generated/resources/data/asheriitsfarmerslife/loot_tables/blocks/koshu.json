@@ -1,0 +1,81 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "asheriitsfarmerslife:koshu",
+                  "properties": {
+                    "age": "7"
+                  }
+                }
+              ],
+              "name": "asheriitsfarmerslife:koshu_crop"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "asheriitsfarmerslife:koshu",
+                  "properties": {
+                    "root": "true"
+                  }
+                }
+              ],
+              "name": "asheriitsfarmerslife:koshu_seed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "n": 1,
+                "p": 0.33,
+                "type": "minecraft:binomial"
+              }
+            }
+          ],
+          "name": "asheriitsfarmerslife:koshu_crop"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "asheriitsfarmerslife:koshu",
+          "properties": {
+            "age": "7"
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "asheriitsfarmerslife:koshu",
+          "properties": {
+            "root": "false"
+          }
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:explosion_decay"
+    }
+  ]
+}

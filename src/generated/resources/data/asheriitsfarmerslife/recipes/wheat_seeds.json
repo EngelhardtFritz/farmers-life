@@ -1,0 +1,25 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "load_recipe": true,
+          "type": "asheriitsfarmerslife:load_vanilla_additions_recipes"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "minecraft:wheat"
+          }
+        ],
+        "result": {
+          "item": "minecraft:wheat_seeds",
+          "count": 2
+        }
+      }
+    }
+  ]
+}

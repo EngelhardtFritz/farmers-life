@@ -1,0 +1,118 @@
+{
+   "multipart": [
+      {
+         "when": { "OR": [
+            { "north": true, "east": true, "south": true, "west": true, "diagonal_block": "all" },
+            { "north": true, "east": true, "south": true, "west": true, "diagonal_block": "empty" },
+            { "north": true, "east": false, "south": false, "west": false },
+            { "north": false, "east": true, "south": false, "west": false },
+            { "north": false, "east": false, "south": true, "west": false },
+            { "north": false, "east": false, "south": false, "west": true },
+            { "north": true, "east": false, "south": true, "west": false },
+            { "north": false, "east": true, "south": false, "west": true },
+            { "north": false, "east": false, "south": false, "west": false }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/glass/black_stained_gfloor_full" }
+      },
+      {
+         "when": { "north": true, "east": true, "south": true, "west": true, "diagonal_block": "ne" },
+         "apply": { "model": "asheriitsfarmerslife:block/glass/black_stained_gfloor_inv_edge" }
+      },
+      {
+         "when": { "north": true, "east": true, "south": true, "west": true, "diagonal_block": "se" },
+         "apply": { "model": "asheriitsfarmerslife:block/glass/black_stained_gfloor_inv_edge", "y": 90  }
+      },
+      {
+         "when": { "north": true, "east": true, "south": true, "west": true, "diagonal_block": "sw" },
+         "apply": { "model": "asheriitsfarmerslife:block/glass/black_stained_gfloor_inv_edge", "y": 180 }
+      },
+      {
+         "when": { "north": true, "east": true, "south": true, "west": true, "diagonal_block": "nw" },
+         "apply": { "model": "asheriitsfarmerslife:block/glass/black_stained_gfloor_inv_edge", "y": 270 }
+      },
+      {
+         "when": { "north": true, "east": true, "south": false, "west": true },
+         "apply": { "model": "asheriitsfarmerslife:block/glass/black_stained_gfloor_half" }
+      },
+      {
+         "when": { "north": true, "east": true, "south": true, "west": false },
+         "apply": { "model": "asheriitsfarmerslife:block/glass/black_stained_gfloor_half", "y": 90  }
+      },
+      {
+         "when": { "north": false, "east": true, "south": true, "west": true },
+         "apply": { "model": "asheriitsfarmerslife:block/glass/black_stained_gfloor_half", "y": 180 }
+      },
+      {
+         "when": { "north": true, "east": false, "south": true, "west": true },
+         "apply": { "model": "asheriitsfarmerslife:block/glass/black_stained_gfloor_half", "y": 270 }
+      },
+      {
+         "when": { "north": true, "east": true, "south": false, "west": false },
+         "apply": { "model": "asheriitsfarmerslife:block/glass/black_stained_gfloor_edge" }
+      },
+      {
+         "when": { "north": false, "east": true, "south": true, "west": false },
+         "apply": { "model": "asheriitsfarmerslife:block/glass/black_stained_gfloor_edge", "y": 90  }
+      },
+      {
+         "when": { "north": false, "east": false, "south": true, "west": true },
+         "apply": { "model": "asheriitsfarmerslife:block/glass/black_stained_gfloor_edge", "y": 180 }
+      },
+      {
+         "when": { "north": true, "east": false, "south": false, "west": true },
+         "apply": { "model": "asheriitsfarmerslife:block/glass/black_stained_gfloor_edge", "y": 270 }
+      },
+      {
+         "when": { "OR": [
+            { "north": true, "east": true, "south": true, "west": true, "diagonal_block": "empty" },
+            { "north": true, "east": false, "south": false, "west": false },
+            { "north": false, "east": true, "south": false, "west": false },
+            { "north": false, "east": false, "south": true, "west": false },
+            { "north": false, "east": false, "south": false, "west": true },
+            { "north": true, "east": false, "south": true, "west": false },
+            { "north": false, "east": true, "south": false, "west": true },
+            { "north": false, "east": false, "south": false, "west": false }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/glass/black_stained_gfloor_con" }
+      },
+      {
+         "when": { "OR": [
+            { "north": true, "east": true, "south": true, "west": true, "diagonal_block": "empty" },
+            { "north": true, "east": false, "south": false, "west": false },
+            { "north": false, "east": true, "south": false, "west": false },
+            { "north": false, "east": false, "south": true, "west": false },
+            { "north": false, "east": false, "south": false, "west": true },
+            { "north": true, "east": false, "south": true, "west": false },
+            { "north": false, "east": true, "south": false, "west": true },
+            { "north": false, "east": false, "south": false, "west": false }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/glass/black_stained_gfloor_con", "y": 90 }
+      },
+      {
+         "when": { "OR": [
+            { "north": true, "east": true, "south": true, "west": true, "diagonal_block": "empty" },
+            { "north": true, "east": false, "south": false, "west": false },
+            { "north": false, "east": true, "south": false, "west": false },
+            { "north": false, "east": false, "south": true, "west": false },
+            { "north": false, "east": false, "south": false, "west": true },
+            { "north": true, "east": false, "south": true, "west": false },
+            { "north": false, "east": true, "south": false, "west": true },
+            { "north": false, "east": false, "south": false, "west": false }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/glass/black_stained_gfloor_con", "y": 180 }
+      },
+      {
+         "when": { "OR": [
+            { "north": true, "east": true, "south": true, "west": true, "diagonal_block": "empty" },
+            { "north": true, "east": false, "south": false, "west": false },
+            { "north": false, "east": true, "south": false, "west": false },
+            { "north": false, "east": false, "south": true, "west": false },
+            { "north": false, "east": false, "south": false, "west": true },
+            { "north": true, "east": false, "south": true, "west": false },
+            { "north": false, "east": true, "south": false, "west": true },
+            { "north": false, "east": false, "south": false, "west": false }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/glass/black_stained_gfloor_con", "y": 270 }
+      }
+   ]
+}

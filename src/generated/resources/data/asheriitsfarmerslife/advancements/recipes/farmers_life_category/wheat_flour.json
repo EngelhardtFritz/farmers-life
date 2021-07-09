@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "asheriitsfarmerslife:wheat_flour"
+    ]
+  },
+  "criteria": {
+    "has_wheat_crop": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:crops/wheat"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "asheriitsfarmerslife:wheat_flour"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wheat_crop",
+      "has_the_recipe"
+    ]
+  ]
+}

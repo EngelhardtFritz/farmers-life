@@ -1,0 +1,17 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shaped",
+  "group": "middle_door",
+  "pattern": [
+    "## ",
+    "## ",
+    "## "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "result": {
+    "item": "asheriitsfarmerslife:glass_door"
+  }
+}

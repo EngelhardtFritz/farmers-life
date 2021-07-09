@@ -1,0 +1,16 @@
+{
+   "variants": {
+      "half=lower,age=0": { "model": "asheriitsfarmerslife:block/crops/corn/corn_bot_stage0" },
+      "half=lower,age=1": { "model": "asheriitsfarmerslife:block/crops/corn/corn_bot_stage1" },
+      "half=lower,age=2": { "model": "asheriitsfarmerslife:block/crops/corn/corn_bot_stage2" },
+      "half=lower,age=3": { "model": "asheriitsfarmerslife:block/crops/corn/corn_bot_stage3" },
+      "half=lower,age=4": { "model": "asheriitsfarmerslife:block/crops/corn/corn_bot_stage4" },
+      "half=lower,age=5": { "model": "asheriitsfarmerslife:block/crops/corn/corn_bot_stage5" },
+      "half=upper,age=0": { "model": "asheriitsfarmerslife:block/crops/corn/corn_top_stage0" },
+      "half=upper,age=1": { "model": "asheriitsfarmerslife:block/crops/corn/corn_top_stage1" },
+      "half=upper,age=2": { "model": "asheriitsfarmerslife:block/crops/corn/corn_top_stage2" },
+      "half=upper,age=3": { "model": "asheriitsfarmerslife:block/crops/corn/corn_top_stage3" },
+      "half=upper,age=4": { "model": "asheriitsfarmerslife:block/crops/corn/corn_top_stage4" },
+      "half=upper,age=5": { "model": "asheriitsfarmerslife:block/crops/corn/corn_top_stage5" }
+   }
+}

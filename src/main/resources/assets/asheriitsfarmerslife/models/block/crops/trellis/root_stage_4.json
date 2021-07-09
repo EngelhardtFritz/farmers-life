@@ -1,0 +1,49 @@
+{
+	"credit": "Asheriit",
+	"textures": {
+		"0": "asheriitsfarmerslife:blocks/crops/wood_trellis_crop",
+		"2": "asheriitsfarmerslife:blocks/crops/wine_leaves",
+		"particle": "asheriitsfarmerslife:blocks/crops/wood_trellis_crop"
+	},
+	"elements": [
+		{
+			"name": "root_bot",
+			"from": [7, 3, 3.5],
+			"to": [9, 10, 5.5],
+			"faces": {
+				"north": {"uv": [12, 8, 14, 15], "texture": "#0"},
+				"east": {"uv": [14, 8, 12, 15], "texture": "#0"},
+				"south": {"uv": [12, 9, 14, 16], "texture": "#0"},
+				"west": {"uv": [13, 9, 15, 16], "texture": "#0"},
+				"up": {"uv": [13, 10, 15, 12], "texture": "#0"},
+				"down": {"uv": [3, 8, 5, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "root_bot",
+			"from": [6.5, 0, 3],
+			"to": [9.5, 3, 6],
+			"faces": {
+				"north": {"uv": [12, 11, 15, 14], "texture": "#0"},
+				"east": {"uv": [12, 9, 15, 12], "texture": "#0"},
+				"south": {"uv": [12, 8, 15, 11], "texture": "#0"},
+				"west": {"uv": [12, 10, 15, 13], "texture": "#0"},
+				"up": {"uv": [12, 11, 15, 14], "texture": "#0"},
+				"down": {"uv": [13, 12, 16, 15], "texture": "#0"}
+			}
+		},
+		{
+			"name": "leaves",
+			"from": [3.5, 8, 0.5],
+			"to": [12.5, 16, 9.5],
+			"faces": {
+				"north": {"uv": [5, 4, 14, 12], "texture": "#2", "tintindex": 0},
+				"east": {"uv": [2, 4, 11, 12], "texture": "#2", "tintindex": 0},
+				"south": {"uv": [0, 4, 9, 12], "texture": "#2", "tintindex": 0},
+				"west": {"uv": [2, 7, 11, 15], "texture": "#2", "tintindex": 0},
+				"up": {"uv": [6, 3, 15, 12], "texture": "#2", "tintindex": 0},
+				"down": {"uv": [5, 7, 14, 16], "texture": "#2", "tintindex": 0}
+			}
+		}
+	]
+}

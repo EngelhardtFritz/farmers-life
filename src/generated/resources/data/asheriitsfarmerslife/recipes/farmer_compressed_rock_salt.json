@@ -1,0 +1,36 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shapeless",
+  "group": "compressed_salt",
+  "ingredients": [
+    {
+      "item": "asheriitsfarmerslife:rock_salt"
+    },
+    {
+      "item": "asheriitsfarmerslife:rock_salt"
+    },
+    {
+      "item": "asheriitsfarmerslife:rock_salt"
+    },
+    {
+      "item": "asheriitsfarmerslife:rock_salt"
+    },
+    {
+      "item": "asheriitsfarmerslife:rock_salt"
+    },
+    {
+      "item": "asheriitsfarmerslife:rock_salt"
+    },
+    {
+      "item": "asheriitsfarmerslife:rock_salt"
+    },
+    {
+      "item": "asheriitsfarmerslife:rock_salt"
+    },
+    {
+      "item": "asheriitsfarmerslife:rock_salt"
+    }
+  ],
+  "result": {
+    "item": "asheriitsfarmerslife:compressed_rock_salt"
+  }
+}

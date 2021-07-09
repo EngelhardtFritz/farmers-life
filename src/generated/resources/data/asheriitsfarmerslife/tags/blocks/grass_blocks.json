@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:grass_block",
+    "asheriitsfarmerslife:submerged_grass_farmland",
+    "asheriitsfarmerslife:grass_small_dam",
+    "asheriitsfarmerslife:grass_large_dam"
+  ]
+}

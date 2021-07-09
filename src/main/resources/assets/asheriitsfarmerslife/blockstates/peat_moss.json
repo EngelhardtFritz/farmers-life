@@ -1,0 +1,40 @@
+{
+    "variants": {
+        "age=0": [
+            { "model": "asheriitsfarmerslife:block/peat_moss_0" },
+            { "model": "asheriitsfarmerslife:block/peat_moss_0", "y": 90 },
+            { "model": "asheriitsfarmerslife:block/peat_moss_0", "y": 180 },
+            { "model": "asheriitsfarmerslife:block/peat_moss_0", "y": 270 }
+        ],
+        "age=1": [
+            { "model": "asheriitsfarmerslife:block/peat_moss_1" },
+            { "model": "asheriitsfarmerslife:block/peat_moss_1", "y": 90 },
+            { "model": "asheriitsfarmerslife:block/peat_moss_1", "y": 180 },
+            { "model": "asheriitsfarmerslife:block/peat_moss_1", "y": 270 }
+        ],
+        "age=2": [
+            { "model": "asheriitsfarmerslife:block/peat_moss_2" },
+            { "model": "asheriitsfarmerslife:block/peat_moss_2", "y": 90 },
+            { "model": "asheriitsfarmerslife:block/peat_moss_2", "y": 180 },
+            { "model": "asheriitsfarmerslife:block/peat_moss_2", "y": 270 }
+        ],
+        "age=3": [
+            { "model": "asheriitsfarmerslife:block/peat_moss_2" },
+            { "model": "asheriitsfarmerslife:block/peat_moss_2", "y": 90 },
+            { "model": "asheriitsfarmerslife:block/peat_moss_2", "y": 180 },
+            { "model": "asheriitsfarmerslife:block/peat_moss_2", "y": 270 }
+        ],
+        "age=4": [
+            { "model": "asheriitsfarmerslife:block/peat_moss_2" },
+            { "model": "asheriitsfarmerslife:block/peat_moss_2", "y": 90 },
+            { "model": "asheriitsfarmerslife:block/peat_moss_2", "y": 180 },
+            { "model": "asheriitsfarmerslife:block/peat_moss_2", "y": 270 }
+        ],
+        "age=5": [
+            { "model": "asheriitsfarmerslife:block/peat_moss_2" },
+            { "model": "asheriitsfarmerslife:block/peat_moss_2", "y": 90 },
+            { "model": "asheriitsfarmerslife:block/peat_moss_2", "y": 180 },
+            { "model": "asheriitsfarmerslife:block/peat_moss_2", "y": 270 }
+        ]
+    }
+}

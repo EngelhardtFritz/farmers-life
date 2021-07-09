@@ -1,0 +1,15 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "asheriitsfarmerslife:rice_indica_crop"
+    }
+  },
+  "result": {
+    "item": "asheriitsfarmerslife:threshing_rice_indica"
+  }
+}

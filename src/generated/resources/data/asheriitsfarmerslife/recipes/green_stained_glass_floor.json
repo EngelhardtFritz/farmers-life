@@ -1,0 +1,21 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shaped",
+  "group": "stained_glass_floor",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "asheriitsfarmerslife:green_stained_glass_floor"
+    },
+    "X": {
+      "tag": "forge:dyes/green"
+    }
+  },
+  "result": {
+    "item": "asheriitsfarmerslife:green_stained_glass_floor",
+    "count": 8
+  }
+}

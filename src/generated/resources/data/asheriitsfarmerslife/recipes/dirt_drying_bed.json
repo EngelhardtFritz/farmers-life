@@ -1,0 +1,17 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shaped",
+  "pattern": [
+    " # ",
+    "# #",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "result": {
+    "item": "asheriitsfarmerslife:dirt_drying_bed",
+    "count": 4
+  }
+}

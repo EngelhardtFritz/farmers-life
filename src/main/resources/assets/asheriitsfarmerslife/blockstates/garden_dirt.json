@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+            { "model": "asheriitsfarmerslife:block/garden_dirt" },
+            { "model": "asheriitsfarmerslife:block/garden_dirt", "y": 90 },
+            { "model": "asheriitsfarmerslife:block/garden_dirt", "y": 180 },
+            { "model": "asheriitsfarmerslife:block/garden_dirt", "y": 270 }
+        ]
+    }
+}

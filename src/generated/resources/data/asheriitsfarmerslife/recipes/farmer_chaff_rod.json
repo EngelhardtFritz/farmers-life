@@ -1,0 +1,14 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shapeless",
+  "ingredients": [
+    {
+      "item": "asheriitsfarmerslife:chaff"
+    },
+    {
+      "item": "asheriitsfarmerslife:chaff"
+    }
+  ],
+  "result": {
+    "item": "asheriitsfarmerslife:chaff_rod"
+  }
+}

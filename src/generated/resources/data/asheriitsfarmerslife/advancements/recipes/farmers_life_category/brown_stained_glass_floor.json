@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "asheriitsfarmerslife:brown_stained_glass_floor"
+    ]
+  },
+  "criteria": {
+    "has_glass_floor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "asheriitsfarmerslife:glass_floor"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "asheriitsfarmerslife:brown_stained_glass_floor"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_glass_floor",
+      "has_the_recipe"
+    ]
+  ]
+}

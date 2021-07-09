@@ -1,0 +1,21 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shaped",
+  "group": "trellis",
+  "pattern": [
+    " # ",
+    "#X#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "asheriitsfarmerslife:wood_trellis",
+    "count": 2
+  }
+}

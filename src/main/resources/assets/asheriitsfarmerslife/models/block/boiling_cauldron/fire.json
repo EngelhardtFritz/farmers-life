@@ -1,0 +1,68 @@
+{
+	"credit": "Asheriit",
+	"textures": {
+		"fire": "asheriitsfarmerslife:blocks/boiling_cauldron/boiling_cauldron_fire",
+		"particle": "asheriitsfarmerslife:blocks/boiling_cauldron/boiling_cauldron_fire"
+	},
+	"elements": [
+		{
+			"name": "fire_side",
+			"from": [2, 0, 1.75],
+			"to": [14, 6, 1.75],
+			"faces": {
+				"north": {"uv": [0, 9, 16, 16], "texture": "#fire"},
+				"east": {"uv": [0, 0, 0, 6], "texture": "#fire"},
+				"south": {"uv": [0, 9, 16, 16], "texture": "#fire"},
+				"west": {"uv": [0, 0, 0, 6], "texture": "#fire"},
+				"up": {"uv": [0, 0, 12, 0], "texture": "#fire"},
+				"down": {"uv": [0, 0, 12, 0], "texture": "#fire"}
+			}
+		},
+		{
+			"name": "fire_side",
+			"from": [14.25, 0, 2],
+			"to": [14.25, 6, 14],
+			"faces": {
+				"north": {"uv": [0, 0, 0, 6], "texture": "#fire"},
+				"east": {"uv": [0, 9, 16, 16], "texture": "#fire"},
+				"south": {"uv": [0, 0, 0, 6], "texture": "#fire"},
+				"west": {"uv": [0, 9, 16, 16], "texture": "#fire"},
+				"up": {"uv": [0, 0, 12, 0], "rotation": 90, "texture": "#fire"},
+				"down": {"uv": [0, 0, 12, 0], "rotation": 270, "texture": "#fire"}
+			}
+		},
+		{
+			"name": "fire_side",
+			"from": [2, 0, 14.25],
+			"to": [14, 6, 14.25],
+			"faces": {
+				"north": {"uv": [0, 9, 16, 16], "texture": "#fire"},
+				"east": {"uv": [0, 0, 0, 6], "texture": "#fire"},
+				"south": {"uv": [0, 9, 16, 16], "texture": "#fire"},
+				"west": {"uv": [0, 0, 0, 6], "texture": "#fire"},
+				"up": {"uv": [0, 0, 12, 0], "rotation": 180, "texture": "#fire"},
+				"down": {"uv": [0, 0, 12, 0], "rotation": 180, "texture": "#fire"}
+			}
+		},
+		{
+			"name": "fire_side",
+			"from": [1.75, 0, 2],
+			"to": [1.75, 6, 14],
+			"faces": {
+				"north": {"uv": [0, 0, 0, 6], "texture": "#fire"},
+				"east": {"uv": [0, 9, 16, 16], "texture": "#fire"},
+				"south": {"uv": [0, 0, 0, 6], "texture": "#fire"},
+				"west": {"uv": [0, 9, 16, 16], "texture": "#fire"},
+				"up": {"uv": [0, 0, 12, 0], "rotation": 270, "texture": "#fire"},
+				"down": {"uv": [0, 0, 12, 0], "rotation": 90, "texture": "#fire"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "fire",
+			"origin": [8, 8, 8],
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

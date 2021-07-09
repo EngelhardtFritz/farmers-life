@@ -1,0 +1,12 @@
+{
+   "type": "asheriitsfarmerslife:wine_press",
+   "ingredient": {
+      "item": "asheriitsfarmerslife:cabernet_sauvignon_crop",
+      "count": 8
+   },
+   "result": {
+      "fluid": "asheriitsfarmerslife:cabernet_sauvignon_must_fluid",
+      "amount": 200
+   },
+   "processSteps": 9
+}

@@ -1,0 +1,10 @@
+{
+   "variants": {
+      "facing=up": { "model": "asheriitsfarmerslife:block/fluid_storage_barrel/fluid_storage_barrel" },
+      "facing=down": { "model": "asheriitsfarmerslife:block/fluid_storage_barrel/fluid_storage_barrel", "x": 180 },
+      "facing=north": { "model": "asheriitsfarmerslife:block/fluid_storage_barrel/fluid_storage_barrel_horizontal" },
+      "facing=east": { "model": "asheriitsfarmerslife:block/fluid_storage_barrel/fluid_storage_barrel_horizontal", "y": 90 },
+      "facing=south": { "model": "asheriitsfarmerslife:block/fluid_storage_barrel/fluid_storage_barrel_horizontal", "y": 180 },
+      "facing=west": { "model": "asheriitsfarmerslife:block/fluid_storage_barrel/fluid_storage_barrel_horizontal", "y": 270 }
+   }
+}

@@ -1,0 +1,22 @@
+{
+   "type": "asheriitsfarmerslife:bottling",
+   "ingredientItems": [
+      {
+         "item": "asheriitsfarmerslife:enriched_red_globe_wine",
+         "count": 1
+      },
+      {
+         "item": "minecraft:melon_slice",
+         "count": 2
+      },
+      {
+         "item": "minecraft:carrot",
+         "count": 1
+      }
+   ],
+   "result": {
+      "item": "asheriitsfarmerslife:potent_red_globe_wine",
+      "count": 1
+   },
+   "processTime": 400
+}

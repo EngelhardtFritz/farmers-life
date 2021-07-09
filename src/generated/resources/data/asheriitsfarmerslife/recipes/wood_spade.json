@@ -1,0 +1,22 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shaped",
+  "group": "spade",
+  "pattern": [
+    "XZX",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "tag": "minecraft:planks"
+    },
+    "Z": {
+      "item": "minecraft:wooden_shovel"
+    }
+  },
+  "result": {
+    "item": "asheriitsfarmerslife:wooden_spade"
+  }
+}

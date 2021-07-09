@@ -1,0 +1,12 @@
+{
+   "type": "asheriitsfarmerslife:fermenting",
+   "ingredientFluid": {
+      "fluid": "asheriitsfarmerslife:barbera_must_fluid",
+      "amount": 2000
+   },
+   "outputFluid": {
+      "fluid": "asheriitsfarmerslife:fermented_barbera_must_fluid",
+      "amount": 2000
+   },
+   "processTime": 6000
+}

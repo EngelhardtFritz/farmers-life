@@ -1,0 +1,19 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shaped",
+  "group": "large_fertilizer",
+  "pattern": [
+    " # ",
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "item": "asheriitsfarmerslife:compressed_raw_peat_fertilizer"
+    },
+    "X": {
+      "item": "asheriitsfarmerslife:empty_large_fertilizer_bag"
+    }
+  },
+  "result": {
+    "item": "asheriitsfarmerslife:large_peat_fertilizer"
+  }
+}

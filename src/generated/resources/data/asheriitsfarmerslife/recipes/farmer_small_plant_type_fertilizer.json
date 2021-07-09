@@ -1,0 +1,36 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shapeless",
+  "group": "small_fertilizer",
+  "ingredients": [
+    {
+      "item": "asheriitsfarmerslife:raw_plant_type_fertilizer"
+    },
+    {
+      "item": "asheriitsfarmerslife:raw_plant_type_fertilizer"
+    },
+    {
+      "item": "asheriitsfarmerslife:raw_plant_type_fertilizer"
+    },
+    {
+      "item": "asheriitsfarmerslife:raw_plant_type_fertilizer"
+    },
+    {
+      "item": "asheriitsfarmerslife:raw_plant_type_fertilizer"
+    },
+    {
+      "item": "asheriitsfarmerslife:raw_plant_type_fertilizer"
+    },
+    {
+      "item": "asheriitsfarmerslife:raw_plant_type_fertilizer"
+    },
+    {
+      "item": "asheriitsfarmerslife:raw_plant_type_fertilizer"
+    },
+    {
+      "item": "asheriitsfarmerslife:empty_small_fertilizer_bag"
+    }
+  ],
+  "result": {
+    "item": "asheriitsfarmerslife:small_plant_type_fertilizer"
+  }
+}

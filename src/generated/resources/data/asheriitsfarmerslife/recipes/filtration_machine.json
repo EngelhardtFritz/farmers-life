@@ -1,0 +1,22 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shaped",
+  "pattern": [
+    "# #",
+    "S S",
+    "L#L"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    },
+    "L": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "asheriitsfarmerslife:filtration_machine"
+  }
+}

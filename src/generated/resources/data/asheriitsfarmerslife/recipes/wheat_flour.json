@@ -1,0 +1,16 @@
+{
+  "type": "asheriitsfarmerslife:mortar_and_pestle",
+  "group": "flour",
+  "ingredients": [
+    {
+      "tag": "forge:crops/wheat"
+    },
+    {
+      "tag": "forge:crops/wheat"
+    }
+  ],
+  "result": {
+    "item": "asheriitsfarmerslife:wheat_flour",
+    "count": 1
+  }
+}

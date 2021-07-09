@@ -1,0 +1,67 @@
+{
+   "multipart": [
+      {
+         "when": { "OR": [
+            { "north": false, "east": false, "south": false, "west": false },
+            { "north": true }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/dam/dirt_large_dam_side" }
+      },
+      {
+         "when": { "OR": [
+            { "north": false, "east": false, "south": false, "west": false },
+            { "east": true }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/dam/dirt_large_dam_side", "y": 90 }
+      },
+      {
+         "when": { "OR": [
+            { "north": false, "east": false, "south": false, "west": false },
+            { "south": true }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/dam/dirt_large_dam_side", "y": 180 }
+      },
+      {
+         "when": { "OR": [
+            { "north": false, "east": false, "south": false, "west": false },
+            { "west": true }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/dam/dirt_large_dam_side", "y": 270 }
+      },
+
+
+
+      {
+         "when": { "OR": [
+            { "north": false, "east": false, "south": false, "west": false },
+            { "north": true },
+            { "east": true }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/dam/dirt_large_dam_pillar" }
+      },
+      {
+         "when": { "OR": [
+            { "north": false, "east": false, "south": false, "west": false },
+            { "east": true },
+            { "south": true }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/dam/dirt_large_dam_pillar", "y": 90 }
+      },
+      {
+         "when": { "OR": [
+            { "north": false, "east": false, "south": false, "west": false },
+            { "south": true },
+            { "west": true }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/dam/dirt_large_dam_pillar", "y": 180 }
+      },
+      {
+         "when": { "OR": [
+            { "north": false, "east": false, "south": false, "west": false },
+            { "west": true },
+            { "north": true }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/dam/dirt_large_dam_pillar", "y": 270 }
+      }
+   ]
+}

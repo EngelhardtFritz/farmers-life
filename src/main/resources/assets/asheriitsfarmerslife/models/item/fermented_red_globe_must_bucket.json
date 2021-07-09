@@ -1,0 +1,6 @@
+{
+   "parent": "item/generated",
+   "textures": {
+      "layer0": "asheriitsfarmerslife:items/buckets/fermented_red_globe_must_bucket"
+   }
+}

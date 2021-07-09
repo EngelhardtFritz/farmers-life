@@ -1,0 +1,7 @@
+{
+	"credit": "Asheriit",
+	"parent": "asheriitsfarmerslife:block/wine_rack/wine_rack_template",
+	"textures": {
+		"rack": "asheriitsfarmerslife:blocks/wine_rack/dark_oak_wine_rack"
+	}
+}

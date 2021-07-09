@@ -1,0 +1,12 @@
+{
+   "parent": "block/cube",
+   "textures": {
+      "particle": "asheriitsfarmerslife:blocks/peat_stage_two",
+      "down": "minecraft:block/dirt",
+      "up": "asheriitsfarmerslife:blocks/compressed_raw_peat_fertilizer",
+      "north": "asheriitsfarmerslife:blocks/peat_stage_two",
+      "east": "asheriitsfarmerslife:blocks/peat_stage_two",
+      "south": "asheriitsfarmerslife:blocks/peat_stage_two",
+      "west": "asheriitsfarmerslife:blocks/peat_stage_two"
+   }
+}

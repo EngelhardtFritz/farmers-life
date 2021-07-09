@@ -1,0 +1,6 @@
+{
+   "variants": {
+      "axis=z": { "model": "asheriitsfarmerslife:block/temperature_chamber/temperature_chamber" },
+      "axis=x": { "model": "asheriitsfarmerslife:block/temperature_chamber/temperature_chamber", "y": 90 }
+   }
+}

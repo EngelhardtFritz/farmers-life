@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "asheriitsfarmerslife:small_animal_waste_fertilizer",
+    "asheriitsfarmerslife:small_peat_fertilizer",
+    "asheriitsfarmerslife:small_plant_type_fertilizer",
+    "asheriitsfarmerslife:medium_animal_waste_fertilizer",
+    "asheriitsfarmerslife:medium_peat_fertilizer",
+    "asheriitsfarmerslife:medium_plant_type_fertilizer",
+    "asheriitsfarmerslife:large_animal_waste_fertilizer",
+    "asheriitsfarmerslife:large_peat_fertilizer",
+    "asheriitsfarmerslife:large_plant_type_fertilizer"
+  ]
+}

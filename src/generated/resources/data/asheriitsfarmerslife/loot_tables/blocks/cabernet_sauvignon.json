@@ -1,0 +1,81 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "asheriitsfarmerslife:cabernet_sauvignon",
+                  "properties": {
+                    "age": "7"
+                  }
+                }
+              ],
+              "name": "asheriitsfarmerslife:cabernet_sauvignon_crop"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "asheriitsfarmerslife:cabernet_sauvignon",
+                  "properties": {
+                    "root": "true"
+                  }
+                }
+              ],
+              "name": "asheriitsfarmerslife:cabernet_sauvignon_seed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "n": 1,
+                "p": 0.33,
+                "type": "minecraft:binomial"
+              }
+            }
+          ],
+          "name": "asheriitsfarmerslife:cabernet_sauvignon_crop"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "asheriitsfarmerslife:cabernet_sauvignon",
+          "properties": {
+            "age": "7"
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "asheriitsfarmerslife:cabernet_sauvignon",
+          "properties": {
+            "root": "false"
+          }
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:explosion_decay"
+    }
+  ]
+}

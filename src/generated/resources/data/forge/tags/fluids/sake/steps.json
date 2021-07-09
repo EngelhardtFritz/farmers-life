@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "asheriitsfarmerslife:rice_water_mix_fluid",
+    "asheriitsfarmerslife:rice_water_mix_flowing",
+    "asheriitsfarmerslife:koji_water_mix_fluid",
+    "asheriitsfarmerslife:koji_water_mix_flowing",
+    "asheriitsfarmerslife:koji_rice_water_mix_fluid",
+    "asheriitsfarmerslife:koji_rice_water_mix_flowing",
+    "asheriitsfarmerslife:koji_rice_shubo_water_mix_fluid",
+    "asheriitsfarmerslife:koji_rice_shubo_water_mix_flowing",
+    "asheriitsfarmerslife:koji_rice_shubo_water_mix_spoiled_fluid",
+    "asheriitsfarmerslife:koji_rice_shubo_water_mix_spoiled_flowing",
+    "asheriitsfarmerslife:fermented_koji_rice_shubo_water_mix_fluid",
+    "asheriitsfarmerslife:fermented_koji_rice_shubo_water_mix_flowing",
+    "asheriitsfarmerslife:filtered_fermented_koji_rice_shubo_water_mix_fluid",
+    "asheriitsfarmerslife:filtered_fermented_koji_rice_shubo_water_mix_flowing"
+  ]
+}

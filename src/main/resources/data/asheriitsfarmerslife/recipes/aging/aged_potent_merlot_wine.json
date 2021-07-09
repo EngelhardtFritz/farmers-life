@@ -1,0 +1,12 @@
+{
+   "type": "asheriitsfarmerslife:aging",
+   "inputIngredient": {
+      "item": "asheriitsfarmerslife:potent_merlot_wine",
+      "count": 1
+   },
+   "recipeOutput": {
+      "item": "asheriitsfarmerslife:aged_potent_merlot_wine",
+      "count": 1
+   },
+   "processTime": 12000
+}

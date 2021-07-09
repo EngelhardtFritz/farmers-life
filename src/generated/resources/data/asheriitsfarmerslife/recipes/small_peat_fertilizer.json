@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "small_fertilizer",
+  "ingredients": [
+    {
+      "item": "asheriitsfarmerslife:raw_peat_fertilizer"
+    },
+    {
+      "item": "asheriitsfarmerslife:raw_peat_fertilizer"
+    },
+    {
+      "item": "asheriitsfarmerslife:raw_peat_fertilizer"
+    },
+    {
+      "item": "asheriitsfarmerslife:raw_peat_fertilizer"
+    },
+    {
+      "item": "asheriitsfarmerslife:raw_peat_fertilizer"
+    },
+    {
+      "item": "asheriitsfarmerslife:empty_small_fertilizer_bag"
+    }
+  ],
+  "result": {
+    "item": "asheriitsfarmerslife:small_peat_fertilizer"
+  }
+}

@@ -1,0 +1,6 @@
+{
+   "parent": "block/cross",
+   "textures": {
+      "cross": "asheriitsfarmerslife:blocks/saplings/cork_oak_sapling"
+   }
+}

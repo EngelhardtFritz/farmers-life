@@ -1,0 +1,6 @@
+{
+   "parent": "item/handheld",
+   "textures": {
+      "layer0": "asheriitsfarmerslife:items/small_plant_type_fertilizer"
+   }
+}

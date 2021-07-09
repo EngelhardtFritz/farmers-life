@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "compressed_salt",
+  "ingredients": [
+    {
+      "item": "asheriitsfarmerslife:sea_salt"
+    },
+    {
+      "item": "asheriitsfarmerslife:sea_salt"
+    },
+    {
+      "item": "asheriitsfarmerslife:sea_salt"
+    },
+    {
+      "item": "asheriitsfarmerslife:sea_salt"
+    },
+    {
+      "item": "asheriitsfarmerslife:sea_salt"
+    },
+    {
+      "item": "asheriitsfarmerslife:sea_salt"
+    },
+    {
+      "item": "asheriitsfarmerslife:sea_salt"
+    },
+    {
+      "item": "asheriitsfarmerslife:sea_salt"
+    },
+    {
+      "item": "asheriitsfarmerslife:sea_salt"
+    }
+  ],
+  "result": {
+    "item": "asheriitsfarmerslife:compressed_sea_salt"
+  }
+}

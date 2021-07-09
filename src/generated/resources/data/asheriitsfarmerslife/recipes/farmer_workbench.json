@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "## ",
+    "## "
+  ],
+  "key": {
+    "#": {
+      "item": "asheriitsfarmerslife:cork_oak_log"
+    }
+  },
+  "result": {
+    "item": "asheriitsfarmerslife:farmer_workbench"
+  }
+}

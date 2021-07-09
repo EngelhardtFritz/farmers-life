@@ -1,0 +1,20 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shaped",
+  "group": "husked_rice",
+  "pattern": [
+    "X",
+    "X",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "asheriitsfarmerslife:corn_husk"
+    },
+    "X": {
+      "tag": "forge:grains/rice"
+    }
+  },
+  "result": {
+    "item": "asheriitsfarmerslife:rice_in_husk"
+  }
+}

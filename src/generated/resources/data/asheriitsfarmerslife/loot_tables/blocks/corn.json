@@ -1,0 +1,121 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "asheriitsfarmerslife:corn",
+                  "properties": {
+                    "age": "5"
+                  }
+                }
+              ],
+              "name": "asheriitsfarmerslife:corn_crop"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "asheriitsfarmerslife:corn_seed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "asheriitsfarmerslife:corn",
+              "properties": {
+                "age": "5"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "n": 1,
+                "p": 0.5,
+                "type": "minecraft:binomial"
+              }
+            }
+          ],
+          "name": "asheriitsfarmerslife:corn_seed"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "n": 1,
+                "p": 0.33,
+                "type": "minecraft:binomial"
+              }
+            }
+          ],
+          "name": "asheriitsfarmerslife:corn_crop"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "asheriitsfarmerslife:corn",
+          "properties": {
+            "age": "5"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "n": 3,
+                "p": 0.5,
+                "type": "minecraft:binomial"
+              }
+            }
+          ],
+          "name": "asheriitsfarmerslife:corn_husk"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "asheriitsfarmerslife:corn",
+          "properties": {
+            "age": "5"
+          }
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:explosion_decay"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "asheriitsfarmerslife:large_watering_can"
+    ]
+  },
+  "criteria": {
+    "has_tube": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "asheriitsfarmerslife:water_tube"
+          }
+        ]
+      }
+    },
+    "has_body": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "asheriitsfarmerslife:large_watering_can_body"
+          }
+        ]
+      }
+    },
+    "has_handle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "asheriitsfarmerslife:watering_can_handle"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "asheriitsfarmerslife:large_watering_can"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_tube",
+      "has_body",
+      "has_handle",
+      "has_the_recipe"
+    ]
+  ]
+}

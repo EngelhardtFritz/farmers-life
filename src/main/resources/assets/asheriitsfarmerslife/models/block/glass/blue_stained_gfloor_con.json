@@ -1,0 +1,25 @@
+{
+	"credit": "Asheriit",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "minecraft:block/blue_stained_glass",
+		"particle": "minecraft:block/blue_stained_glass"
+	},
+	"elements": [
+		{
+			"name": "gfloor_full_con",
+			"from": [0, 0, 0],
+			"to": [16, 16, 1],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "gfloor_con",
+			"origin": [8, 8, 8],
+			"children": [0]
+		}
+	]
+}

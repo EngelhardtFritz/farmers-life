@@ -1,0 +1,12 @@
+{
+   "type": "asheriitsfarmerslife:stomping_barrel",
+   "ingredient": {
+      "item": "asheriitsfarmerslife:riesling_crop",
+      "count": 8
+   },
+   "result": {
+      "fluid": "asheriitsfarmerslife:riesling_must_fluid",
+      "amount": 200
+   },
+   "processSteps": 3
+}

@@ -1,0 +1,12 @@
+{
+   "type": "asheriitsfarmerslife:aging",
+   "inputIngredient": {
+      "item": "asheriitsfarmerslife:potent_red_globe_wine",
+      "count": 1
+   },
+   "recipeOutput": {
+      "item": "asheriitsfarmerslife:aged_potent_red_globe_wine",
+      "count": 1
+   },
+   "processTime": 12000
+}

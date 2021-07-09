@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "salt",
+  "ingredients": [
+    {
+      "item": "asheriitsfarmerslife:compressed_rock_salt"
+    }
+  ],
+  "result": {
+    "item": "asheriitsfarmerslife:rock_salt",
+    "count": 9
+  }
+}

@@ -1,0 +1,7 @@
+{
+   "parent": "item/handheld",
+   "textures": {
+      "layer0": "asheriitsfarmerslife:items/bottles/corked_glass_bottle",
+      "layer1": "asheriitsfarmerslife:items/bottles/corked_glass_bottle_overlay"
+   }
+}

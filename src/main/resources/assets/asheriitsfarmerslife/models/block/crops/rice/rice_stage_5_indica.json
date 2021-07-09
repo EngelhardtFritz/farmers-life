@@ -1,0 +1,7 @@
+{
+	"parent": "asheriitsfarmerslife:block/crops/rice/rice_crop_stage_5_template",
+	"textures": {
+		"cross_top": "asheriitsfarmerslife:blocks/crops/rice/rice_split5_indica",
+		"sides": "asheriitsfarmerslife:blocks/crops/rice/rice_side5_indica"
+	}
+}

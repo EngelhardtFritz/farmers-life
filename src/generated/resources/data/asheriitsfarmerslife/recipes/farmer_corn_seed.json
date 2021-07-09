@@ -1,0 +1,13 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shapeless",
+  "group": "corn_seeds",
+  "ingredients": [
+    {
+      "item": "asheriitsfarmerslife:corn_crop"
+    }
+  ],
+  "result": {
+    "item": "asheriitsfarmerslife:corn_seed",
+    "count": 4
+  }
+}

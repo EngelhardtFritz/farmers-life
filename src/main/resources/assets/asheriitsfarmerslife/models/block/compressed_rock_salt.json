@@ -1,0 +1,8 @@
+{
+   "parent": "block/cube_bottom_top",
+   "textures": {
+      "side": "asheriitsfarmerslife:blocks/compressed_rock_salt_side",
+      "top": "asheriitsfarmerslife:blocks/compressed_rock_salt_top",
+      "bottom": "asheriitsfarmerslife:blocks/compressed_rock_salt_bot"
+   }
+}

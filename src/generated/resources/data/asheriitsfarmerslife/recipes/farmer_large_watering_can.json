@@ -1,0 +1,17 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shapeless",
+  "ingredients": [
+    {
+      "item": "asheriitsfarmerslife:water_tube"
+    },
+    {
+      "item": "asheriitsfarmerslife:large_watering_can_body"
+    },
+    {
+      "item": "asheriitsfarmerslife:watering_can_handle"
+    }
+  ],
+  "result": {
+    "item": "asheriitsfarmerslife:large_watering_can"
+  }
+}

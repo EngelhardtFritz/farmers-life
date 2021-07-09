@@ -1,0 +1,11 @@
+{
+   "variants": {
+      "snowy=false": [
+         { "model": "asheriitsfarmerslife:block/peat_grass_block" },
+         { "model": "asheriitsfarmerslife:block/peat_grass_block", "y": 90 },
+         { "model": "asheriitsfarmerslife:block/peat_grass_block", "y": 180 },
+         { "model": "asheriitsfarmerslife:block/peat_grass_block", "y": 270 }
+      ],
+      "snowy=true":  { "model": "asheriitsfarmerslife:block/peat_grass_block_snow" }
+   }
+}

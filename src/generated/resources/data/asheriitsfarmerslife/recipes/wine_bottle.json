@@ -1,0 +1,20 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shaped",
+  "pattern": [
+    " X ",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "asheriitsfarmerslife:molten_glass"
+    },
+    "X": {
+      "item": "asheriitsfarmerslife:wine_cork"
+    }
+  },
+  "result": {
+    "item": "asheriitsfarmerslife:corked_glass_bottle",
+    "count": 2
+  }
+}

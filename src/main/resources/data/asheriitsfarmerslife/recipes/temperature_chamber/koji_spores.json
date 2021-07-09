@@ -1,0 +1,29 @@
+{
+   "type": "asheriitsfarmerslife:temperature_chamber",
+   "inputIngredient": {
+      "item": "asheriitsfarmerslife:rice_in_husk",
+      "count": 8
+   },
+   "ingredientFluid": {
+      "fluid": "minecraft:water",
+      "amount": 1000
+   },
+   "result": {
+      "item": "asheriitsfarmerslife:koji_spores",
+      "count": 1
+   },
+   "resultHot": {
+      "item": "asheriitsfarmerslife:spoiled_koji_spores",
+      "count": 1
+   },
+   "resultCold": {
+      "item": "asheriitsfarmerslife:spoiled_koji_spores",
+      "count": 1
+   },
+   "temperaturesInKelvin": {
+      "min": 303.15,
+      "max": 308.15,
+      "requiredPercentageInRange": 0.96
+   },
+   "processTime": 6000
+}

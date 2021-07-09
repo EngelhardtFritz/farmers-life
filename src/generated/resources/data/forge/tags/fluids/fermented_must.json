@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:fermented_must/barbera",
+    "#forge:fermented_must/cabernet_sauvignon",
+    "#forge:fermented_must/merlot",
+    "#forge:fermented_must/red_globe",
+    "#forge:fermented_must/koshu",
+    "#forge:fermented_must/riesling"
+  ]
+}

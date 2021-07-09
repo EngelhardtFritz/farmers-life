@@ -1,0 +1,12 @@
+{
+   "type": "asheriitsfarmerslife:aging",
+   "inputIngredient": {
+      "item": "asheriitsfarmerslife:cabernet_sauvignon_wine_bottle",
+      "count": 1
+   },
+   "recipeOutput": {
+      "item": "asheriitsfarmerslife:aged_cabernet_sauvignon_wine_bottle",
+      "count": 1
+   },
+   "processTime": 12000
+}

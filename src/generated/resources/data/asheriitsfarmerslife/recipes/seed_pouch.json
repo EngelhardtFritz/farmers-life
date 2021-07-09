@@ -1,0 +1,17 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shaped",
+  "group": "pouch",
+  "pattern": [
+    "# #",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:string"
+    }
+  },
+  "result": {
+    "item": "asheriitsfarmerslife:seed_pouch",
+    "count": 2
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:filtered_must/barbera",
+    "#forge:filtered_must/cabernet_sauvignon",
+    "#forge:filtered_must/merlot",
+    "#forge:filtered_must/red_globe",
+    "#forge:filtered_must/koshu",
+    "#forge:filtered_must/riesling"
+  ]
+}

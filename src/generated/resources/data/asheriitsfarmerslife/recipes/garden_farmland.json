@@ -1,0 +1,19 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shaped",
+  "group": "garden_farmland",
+  "pattern": [
+    "##",
+    "#X"
+  ],
+  "key": {
+    "#": {
+      "tag": "asheriitsfarmerslife:raw_fertilizer"
+    },
+    "X": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "result": {
+    "item": "asheriitsfarmerslife:garden_farmland"
+  }
+}

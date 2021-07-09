@@ -1,0 +1,6 @@
+{
+   "parent": "block/leaves",
+   "textures": {
+      "all": "asheriitsfarmerslife:blocks/leaves/cork_oak_leaves"
+   }
+}

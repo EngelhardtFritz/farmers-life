@@ -1,0 +1,6 @@
+{
+   "parent": "item/generated",
+   "textures": {
+      "layer0": "asheriitsfarmerslife:blocks/fermentation_barrel/fermentation_barrel_back"
+   }
+}

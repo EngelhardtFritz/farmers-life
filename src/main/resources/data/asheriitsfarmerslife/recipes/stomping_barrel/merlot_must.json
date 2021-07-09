@@ -1,0 +1,12 @@
+{
+   "type": "asheriitsfarmerslife:stomping_barrel",
+   "ingredient": {
+      "item": "asheriitsfarmerslife:merlot_crop",
+      "count": 8
+   },
+   "result": {
+      "fluid": "asheriitsfarmerslife:merlot_must_fluid",
+      "amount": 200
+   },
+   "processSteps": 3
+}

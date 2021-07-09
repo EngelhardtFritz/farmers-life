@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "asheriitsfarmerslife:blocks/compressed_raw_plant_type_fertilizer"
+    }
+}

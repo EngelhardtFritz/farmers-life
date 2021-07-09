@@ -1,0 +1,25 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shaped",
+  "pattern": [
+    "IBI",
+    " B ",
+    "COC"
+  ],
+  "key": {
+    "C": {
+      "tag": "forge:cobblestone"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "B": {
+      "tag": "forge:rods/blaze"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "result": {
+    "item": "asheriitsfarmerslife:bottling_machine"
+  }
+}

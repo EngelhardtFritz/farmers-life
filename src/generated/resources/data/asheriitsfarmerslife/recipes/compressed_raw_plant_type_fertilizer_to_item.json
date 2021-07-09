@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "compressed_raw_fertilizer_to_item",
+  "ingredients": [
+    {
+      "item": "asheriitsfarmerslife:compressed_raw_plant_type_fertilizer"
+    }
+  ],
+  "result": {
+    "item": "asheriitsfarmerslife:raw_plant_type_fertilizer",
+    "count": 9
+  }
+}

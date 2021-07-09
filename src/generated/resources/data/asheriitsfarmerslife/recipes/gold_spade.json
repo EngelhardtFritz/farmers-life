@@ -1,0 +1,22 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shaped",
+  "group": "spade",
+  "pattern": [
+    "XZX",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:gold_ingot"
+    },
+    "Z": {
+      "item": "minecraft:golden_shovel"
+    }
+  },
+  "result": {
+    "item": "asheriitsfarmerslife:golden_spade"
+  }
+}

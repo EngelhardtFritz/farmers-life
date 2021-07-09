@@ -1,0 +1,19 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shaped",
+  "group": "medium_fertilizer",
+  "pattern": [
+    "##",
+    "#X"
+  ],
+  "key": {
+    "#": {
+      "item": "asheriitsfarmerslife:compressed_raw_plant_type_fertilizer"
+    },
+    "X": {
+      "item": "asheriitsfarmerslife:empty_medium_fertilizer_bag"
+    }
+  },
+  "result": {
+    "item": "asheriitsfarmerslife:medium_plant_type_fertilizer"
+  }
+}

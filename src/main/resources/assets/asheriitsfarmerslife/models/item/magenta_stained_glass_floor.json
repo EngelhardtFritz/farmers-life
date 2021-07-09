@@ -1,0 +1,130 @@
+{
+	"credit": "Asheriit",
+	"textures": {
+		"0": "minecraft:block/magenta_stained_glass",
+		"1": "asheriitsfarmerslife:blocks/magenta_stained_glass_floor_top",
+		"particle": "minecraft:block/magenta_stained_glass"
+	},
+	"elements": [
+		{
+			"name": "gfloor_cube",
+			"from": [4, 0, 5],
+			"to": [5, 16, 11],
+			"faces": {
+				"west": {"uv": [1, 0, 7, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "gfloor_cube",
+			"from": [5, 0, 4],
+			"to": [11, 16, 5],
+			"faces": {
+				"north": {"uv": [9, 0, 15, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "gfloor_cube",
+			"from": [11, 0, 5],
+			"to": [12, 16, 11],
+			"faces": {
+				"east": {"uv": [1, 0, 7, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "gfloor_cube",
+			"from": [5, 0, 11],
+			"to": [11, 16, 12],
+			"faces": {
+				"south": {"uv": [9, 0, 15, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "gfloor_cube",
+			"from": [4, 0, 4],
+			"to": [5, 16, 5],
+			"faces": {
+				"north": {"uv": [0, 15, 16, 16], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [0, 0, 1, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "gfloor_cube",
+			"from": [11, 0, 4],
+			"to": [12, 16, 5],
+			"faces": {
+				"north": {"uv": [15, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 15, 16, 16], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"name": "gfloor_cube",
+			"from": [11, 0, 11],
+			"to": [12, 16, 12],
+			"faces": {
+				"east": {"uv": [0, 0, 16, 1], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [0, 15, 16, 16], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"name": "gfloor_cube",
+			"from": [4, 0, 11],
+			"to": [5, 16, 12],
+			"faces": {
+				"south": {"uv": [0, 0, 1, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 1], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"name": "gfloor_top",
+			"from": [4, 15, 4],
+			"to": [12, 16, 12],
+			"faces": {
+				"up": {"uv": [0, 8, 8, 16], "texture": "#1"}
+			}
+		},
+		{
+			"name": "gfloor_bot",
+			"from": [4, 0, 4],
+			"to": [12, 1, 12],
+			"faces": {
+				"down": {"uv": [0, 8, 8, 16], "rotation": 180, "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, -2, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, -2, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_righthand": {
+			"translation": [1.25, -0.25, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_lefthand": {
+			"translation": [1.25, -0.25, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"ground": {
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [45, 45, 0],
+			"scale": [0.82, 0.82, 0.82]
+		},
+		"fixed": {
+			"rotation": [0, -90, 0],
+			"translation": [0, 0, 3]
+		}
+	},
+	"groups": [
+		{
+			"name": "gfloor_item",
+			"origin": [8, 8, 8],
+			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+		}
+	]
+}

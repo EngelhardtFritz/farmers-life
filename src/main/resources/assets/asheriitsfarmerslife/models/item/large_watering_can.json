@@ -1,0 +1,15 @@
+{
+   "overrides": [
+      { "predicate": { "watering_can_fullness": 0 }, "model": "asheriitsfarmerslife:item/large_watering_can_empty" },
+      { "predicate": { "watering_can_fullness": 1 }, "model": "asheriitsfarmerslife:item/large_watering_can_almost_empty" },
+      { "predicate": { "watering_can_fullness": 2 }, "model": "asheriitsfarmerslife:item/large_watering_can_almost_empty" },
+      { "predicate": { "watering_can_fullness": 3 }, "model": "asheriitsfarmerslife:item/large_watering_can_almost_empty" },
+      { "predicate": { "watering_can_fullness": 4 }, "model": "asheriitsfarmerslife:item/large_watering_can_half_full" },
+      { "predicate": { "watering_can_fullness": 5 }, "model": "asheriitsfarmerslife:item/large_watering_can_half_full" },
+      { "predicate": { "watering_can_fullness": 6 }, "model": "asheriitsfarmerslife:item/large_watering_can_half_full" },
+      { "predicate": { "watering_can_fullness": 7 }, "model": "asheriitsfarmerslife:item/large_watering_can_almost_full" },
+      { "predicate": { "watering_can_fullness": 8 }, "model": "asheriitsfarmerslife:item/large_watering_can_almost_full" },
+      { "predicate": { "watering_can_fullness": 9 }, "model": "asheriitsfarmerslife:item/large_watering_can_almost_full" },
+      { "predicate": { "watering_can_fullness": 10 }, "model": "asheriitsfarmerslife:item/large_watering_can_full" }
+   ]
+}

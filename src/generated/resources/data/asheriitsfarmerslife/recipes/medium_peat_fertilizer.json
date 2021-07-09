@@ -1,0 +1,22 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shaped",
+  "group": "medium_fertilizer",
+  "pattern": [
+    "#X",
+    "XL"
+  ],
+  "key": {
+    "#": {
+      "item": "asheriitsfarmerslife:raw_peat_fertilizer"
+    },
+    "X": {
+      "item": "asheriitsfarmerslife:compressed_raw_peat_fertilizer"
+    },
+    "L": {
+      "item": "asheriitsfarmerslife:empty_medium_fertilizer_bag"
+    }
+  },
+  "result": {
+    "item": "asheriitsfarmerslife:medium_peat_fertilizer"
+  }
+}

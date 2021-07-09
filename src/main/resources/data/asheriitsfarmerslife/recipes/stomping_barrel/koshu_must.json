@@ -1,0 +1,12 @@
+{
+   "type": "asheriitsfarmerslife:stomping_barrel",
+   "ingredient": {
+      "item": "asheriitsfarmerslife:koshu_crop",
+      "count": 8
+   },
+   "result": {
+      "fluid": "asheriitsfarmerslife:koshu_must_fluid",
+      "amount": 200
+   },
+   "processSteps": 3
+}

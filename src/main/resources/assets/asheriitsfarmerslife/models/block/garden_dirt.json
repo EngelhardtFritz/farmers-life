@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "asheriitsfarmerslife:blocks/garden_dirt"
+    }
+}

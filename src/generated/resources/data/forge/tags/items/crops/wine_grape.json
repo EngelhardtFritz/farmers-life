@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "asheriitsfarmerslife:barbera_crop",
+    "asheriitsfarmerslife:cabernet_sauvignon_crop",
+    "asheriitsfarmerslife:merlot_crop",
+    "asheriitsfarmerslife:red_globe_crop",
+    "asheriitsfarmerslife:koshu_crop",
+    "asheriitsfarmerslife:riesling_crop",
+    "asheriitsfarmerslife:sultana_crop"
+  ]
+}

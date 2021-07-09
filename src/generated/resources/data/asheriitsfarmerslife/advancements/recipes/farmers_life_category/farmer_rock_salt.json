@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "asheriitsfarmerslife:farmer_rock_salt"
+    ]
+  },
+  "criteria": {
+    "has_compressed_rock_salt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "asheriitsfarmerslife:compressed_rock_salt"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "asheriitsfarmerslife:farmer_rock_salt"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_compressed_rock_salt",
+      "has_the_recipe"
+    ]
+  ]
+}

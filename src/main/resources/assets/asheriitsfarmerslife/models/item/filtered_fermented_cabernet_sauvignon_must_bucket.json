@@ -1,0 +1,6 @@
+{
+   "parent": "item/generated",
+   "textures": {
+      "layer0": "asheriitsfarmerslife:items/buckets/filtered_fermented_cabernet_sauvignon_must_bucket"
+   }
+}

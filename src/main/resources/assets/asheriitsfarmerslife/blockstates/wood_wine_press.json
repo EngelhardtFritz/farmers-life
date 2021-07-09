@@ -1,0 +1,8 @@
+{
+   "variants": {
+      "facing=north": { "model": "asheriitsfarmerslife:block/wine_press/wood_wine_press" },
+      "facing=east": { "model": "asheriitsfarmerslife:block/wine_press/wood_wine_press", "y": 90 },
+      "facing=south": { "model": "asheriitsfarmerslife:block/wine_press/wood_wine_press", "y": 180 },
+      "facing=west": { "model": "asheriitsfarmerslife:block/wine_press/wood_wine_press", "y": 270 }
+   }
+}

@@ -1,0 +1,20 @@
+{
+   "type": "asheriitsfarmerslife:fining",
+   "ingredientFluid": {
+      "fluid": "asheriitsfarmerslife:filtered_fermented_riesling_must_fluid",
+      "amount": 50
+   },
+   "ingredientItem": {
+      "tag": "asheriitsfarmerslife:precipitation_materials",
+      "count": 1
+   },
+   "outputFluid": {
+      "fluid": "asheriitsfarmerslife:riesling_wine_fluid",
+      "amount": 50
+   },
+   "outputItemStack": {
+      "item": "asheriitsfarmerslife:grape_waste",
+      "probability": 10
+   },
+   "processTime": 400
+}

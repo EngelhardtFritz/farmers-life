@@ -1,0 +1,54 @@
+{
+   "variants": {
+      "facing=north,fullness=0,has_connection=false": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_0" },
+      "facing=east,fullness=0,has_connection=false": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_0", "y": 90 },
+      "facing=south,fullness=0,has_connection=false": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_0", "y": 180 },
+      "facing=west,fullness=0,has_connection=false": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_0", "y": 270 },
+
+      "facing=north,fullness=1,has_connection=false": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_1" },
+      "facing=east,fullness=1,has_connection=false": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_1", "y": 90 },
+      "facing=south,fullness=1,has_connection=false": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_1", "y": 180 },
+      "facing=west,fullness=1,has_connection=false": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_1", "y": 270 },
+
+      "facing=north,fullness=2,has_connection=false": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_2" },
+      "facing=east,fullness=2,has_connection=false": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_2", "y": 90 },
+      "facing=south,fullness=2,has_connection=false": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_2", "y": 180 },
+      "facing=west,fullness=2,has_connection=false": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_2", "y": 270 },
+
+      "facing=north,fullness=3,has_connection=false": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_3" },
+      "facing=east,fullness=3,has_connection=false": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_3", "y": 90 },
+      "facing=south,fullness=3,has_connection=false": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_3", "y": 180 },
+      "facing=west,fullness=3,has_connection=false": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_3", "y": 270 },
+
+      "facing=north,fullness=4,has_connection=false": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_4" },
+      "facing=east,fullness=4,has_connection=false": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_4", "y": 90 },
+      "facing=south,fullness=4,has_connection=false": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_4", "y": 180 },
+      "facing=west,fullness=4,has_connection=false": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_4", "y": 270 },
+
+
+      "facing=north,fullness=0,has_connection=true": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_0_con" },
+      "facing=east,fullness=0,has_connection=true": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_0_con", "y": 90 },
+      "facing=south,fullness=0,has_connection=true": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_0_con", "y": 180 },
+      "facing=west,fullness=0,has_connection=true": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_0_con", "y": 270 },
+
+      "facing=north,fullness=1,has_connection=true": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_1_con" },
+      "facing=east,fullness=1,has_connection=true": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_1_con", "y": 90 },
+      "facing=south,fullness=1,has_connection=true": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_1_con", "y": 180 },
+      "facing=west,fullness=1,has_connection=true": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_1_con", "y": 270 },
+
+      "facing=north,fullness=2,has_connection=true": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_2_con" },
+      "facing=east,fullness=2,has_connection=true": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_2_con", "y": 90 },
+      "facing=south,fullness=2,has_connection=true": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_2_con", "y": 180 },
+      "facing=west,fullness=2,has_connection=true": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_2_con", "y": 270 },
+
+      "facing=north,fullness=3,has_connection=true": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_3_con" },
+      "facing=east,fullness=3,has_connection=true": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_3_con", "y": 90 },
+      "facing=south,fullness=3,has_connection=true": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_3_con", "y": 180 },
+      "facing=west,fullness=3,has_connection=true": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_3_con", "y": 270 },
+
+      "facing=north,fullness=4,has_connection=true": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_4_con" },
+      "facing=east,fullness=4,has_connection=true": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_4_con", "y": 90 },
+      "facing=south,fullness=4,has_connection=true": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_4_con", "y": 180 },
+      "facing=west,fullness=4,has_connection=true": { "model": "asheriitsfarmerslife:block/drying_machine/drying_machine_4_con", "y": 270 }
+   }
+}

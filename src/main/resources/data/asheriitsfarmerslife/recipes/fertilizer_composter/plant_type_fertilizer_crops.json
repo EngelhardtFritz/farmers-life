@@ -1,0 +1,14 @@
+{
+   "type": "asheriitsfarmerslife:fertilizer_composter",
+   "inputIngredients": [
+      {
+         "tag": "forge:crops",
+         "count": 4
+      }
+   ],
+   "primaryOutput": {
+      "item": "asheriitsfarmerslife:raw_plant_type_fertilizer",
+      "count": 1
+   },
+   "processTime": 1800
+}

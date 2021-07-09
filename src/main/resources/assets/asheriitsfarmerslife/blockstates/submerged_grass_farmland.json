@@ -1,0 +1,41 @@
+{
+   "variants": {
+      "north=false,east=false,south=false,west=false,waterlogged=false": { "model": "asheriitsfarmerslife:block/submerged/grass_farmland_none" },
+      "north=false,east=false,south=false,west=false,waterlogged=true": { "model": "asheriitsfarmerslife:block/submerged/grass_farmland_none_moist" },
+
+      "north=true,east=false,south=false,west=false,waterlogged=false": { "model": "asheriitsfarmerslife:block/submerged/grass_farmland_side" },
+      "north=false,east=true,south=false,west=false,waterlogged=false": { "model": "asheriitsfarmerslife:block/submerged/grass_farmland_side", "y": 90,"uvlock": true },
+      "north=false,east=false,south=true,west=false,waterlogged=false": { "model": "asheriitsfarmerslife:block/submerged/grass_farmland_side", "y": 180,"uvlock": true },
+      "north=false,east=false,south=false,west=true,waterlogged=false": { "model": "asheriitsfarmerslife:block/submerged/grass_farmland_side", "y": 270,"uvlock": true },
+      "north=true,east=false,south=false,west=false,waterlogged=true": { "model": "asheriitsfarmerslife:block/submerged/grass_farmland_side_moist" },
+      "north=false,east=true,south=false,west=false,waterlogged=true": { "model": "asheriitsfarmerslife:block/submerged/grass_farmland_side_moist", "y": 90,"uvlock": true },
+      "north=false,east=false,south=true,west=false,waterlogged=true": { "model": "asheriitsfarmerslife:block/submerged/grass_farmland_side_moist", "y": 180,"uvlock": true },
+      "north=false,east=false,south=false,west=true,waterlogged=true": { "model": "asheriitsfarmerslife:block/submerged/grass_farmland_side_moist", "y": 270,"uvlock": true },
+
+      "north=true,east=false,south=true,west=false,waterlogged=false": { "model": "asheriitsfarmerslife:block/submerged/grass_farmland_both" },
+      "north=false,east=true,south=false,west=true,waterlogged=false": { "model": "asheriitsfarmerslife:block/submerged/grass_farmland_both", "y": 90,"uvlock": true },
+      "north=true,east=false,south=true,west=false,waterlogged=true": { "model": "asheriitsfarmerslife:block/submerged/grass_farmland_both_moist" },
+      "north=false,east=true,south=false,west=true,waterlogged=true": { "model": "asheriitsfarmerslife:block/submerged/grass_farmland_both_moist", "y": 90,"uvlock": true },
+
+      "north=true,east=true,south=false,west=false,waterlogged=false": { "model": "asheriitsfarmerslife:block/submerged/grass_farmland_edge" },
+      "north=false,east=true,south=true,west=false,waterlogged=false": { "model": "asheriitsfarmerslife:block/submerged/grass_farmland_edge", "y": 90,"uvlock": true },
+      "north=false,east=false,south=true,west=true,waterlogged=false": { "model": "asheriitsfarmerslife:block/submerged/grass_farmland_edge", "y": 180,"uvlock": true },
+      "north=true,east=false,south=false,west=true,waterlogged=false": { "model": "asheriitsfarmerslife:block/submerged/grass_farmland_edge", "y": 270,"uvlock": true },
+      "north=true,east=true,south=false,west=false,waterlogged=true": { "model": "asheriitsfarmerslife:block/submerged/grass_farmland_edge_moist" },
+      "north=false,east=true,south=true,west=false,waterlogged=true": { "model": "asheriitsfarmerslife:block/submerged/grass_farmland_edge_moist", "y": 90,"uvlock": true },
+      "north=false,east=false,south=true,west=true,waterlogged=true": { "model": "asheriitsfarmerslife:block/submerged/grass_farmland_edge_moist", "y": 180,"uvlock": true },
+      "north=true,east=false,south=false,west=true,waterlogged=true": { "model": "asheriitsfarmerslife:block/submerged/grass_farmland_edge_moist", "y": 270,"uvlock": true },
+
+      "north=true,east=true,south=true,west=false,waterlogged=false": { "model": "asheriitsfarmerslife:block/submerged/grass_farmland_cross", "y": 90,"uvlock": true },
+      "north=false,east=true,south=true,west=true,waterlogged=false": { "model": "asheriitsfarmerslife:block/submerged/grass_farmland_cross", "y": 180,"uvlock": true },
+      "north=true,east=false,south=true,west=true,waterlogged=false": { "model": "asheriitsfarmerslife:block/submerged/grass_farmland_cross", "y": 270,"uvlock": true },
+      "north=true,east=true,south=false,west=true,waterlogged=false": { "model": "asheriitsfarmerslife:block/submerged/grass_farmland_cross" },
+      "north=true,east=true,south=true,west=false,waterlogged=true": { "model": "asheriitsfarmerslife:block/submerged/grass_farmland_cross_moist", "y": 90,"uvlock": true },
+      "north=false,east=true,south=true,west=true,waterlogged=true": { "model": "asheriitsfarmerslife:block/submerged/grass_farmland_cross_moist", "y": 180,"uvlock": true },
+      "north=true,east=false,south=true,west=true,waterlogged=true": { "model": "asheriitsfarmerslife:block/submerged/grass_farmland_cross_moist", "y": 270,"uvlock": true },
+      "north=true,east=true,south=false,west=true,waterlogged=true": { "model": "asheriitsfarmerslife:block/submerged/grass_farmland_cross_moist" },
+
+      "north=true,east=true,south=true,west=true,waterlogged=false": { "model": "asheriitsfarmerslife:block/submerged/grass_farmland_all" },
+      "north=true,east=true,south=true,west=true,waterlogged=true": { "model": "asheriitsfarmerslife:block/submerged/grass_farmland_all_moist" }
+   }
+}

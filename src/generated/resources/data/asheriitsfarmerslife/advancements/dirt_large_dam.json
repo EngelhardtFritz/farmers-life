@@ -1,0 +1,36 @@
+{
+  "advancements": [
+    {
+      "conditions": [
+        {
+          "load_recipe": true,
+          "type": "asheriitsfarmerslife:load_dam_block_recipes"
+        }
+      ],
+      "advancement": {
+        "rewards": {
+          "recipes": [
+            "asheriitsfarmerslife:dirt_large_dam"
+          ]
+        },
+        "criteria": {
+          "has_dirt": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "item": "asheriitsfarmerslife:dirt_small_dam"
+                }
+              ]
+            }
+          }
+        },
+        "requirements": [
+          [
+            "has_dirt"
+          ]
+        ]
+      }
+    }
+  ]
+}

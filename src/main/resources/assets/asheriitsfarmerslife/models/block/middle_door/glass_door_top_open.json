@@ -1,0 +1,9 @@
+{
+	"credit": "Asheriit",
+	"parent": "asheriitsfarmerslife:block/middle_door/middle_door_top_open",
+	"textures": {
+		"side": "minecraft:block/glass_pane_top",
+		"top": "asheriitsfarmerslife:blocks/middle_door/glass_door_top",
+		"side_outer": "asheriitsfarmerslife:blocks/middle_door/glass_door_side"
+	}
+}

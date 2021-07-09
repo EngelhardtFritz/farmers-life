@@ -1,0 +1,35 @@
+{
+	"credit": "Asheriit",
+	"textures": {
+		"0": "minecraft:block/grass_block_side",
+		"1": "minecraft:block/grass_block_top",
+		"overlay": "minecraft:block/grass_block_side_overlay",
+		"particle": "minecraft:block/grass_block_side"
+	},
+	"elements": [
+		{
+			"name": "small_dam_pillar",
+			"from": [14, 0, 0],
+			"to": [16, 8, 2],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 8], "texture": "#0"},
+				"east": {"uv": [14, 0, 16, 8], "texture": "#0"},
+				"south": {"uv": [14, 0, 16, 8], "texture": "#0"},
+				"west": {"uv": [0, 0, 2, 8], "texture": "#0"},
+				"up": {"uv": [0, 0, 2, 2], "rotation": 90, "texture": "#1", "tintindex": 0},
+				"down": {"uv": [0, 14, 2, 16], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"name": "small_dam_pillar_overlay",
+			"from": [14, 0, 0],
+			"to": [16, 8, 2],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 8], "texture": "#overlay", "tintindex": 0},
+				"east": {"uv": [14, 0, 16, 8], "texture": "#overlay", "tintindex": 0},
+				"south": {"uv": [14, 0, 16, 8], "texture": "#overlay", "tintindex": 0},
+				"west": {"uv": [0, 0, 2, 8], "texture": "#overlay", "tintindex": 0}
+			}
+		}
+	]
+}

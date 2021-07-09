@@ -1,0 +1,29 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "load_recipe": true,
+          "type": "asheriitsfarmerslife:load_dam_block_recipes"
+        }
+      ],
+      "recipe": {
+        "type": "asheriitsfarmerslife:farmer_shaped",
+        "group": "dam",
+        "pattern": [
+          "#  ",
+          "#  "
+        ],
+        "key": {
+          "#": {
+            "item": "asheriitsfarmerslife:dirt_small_dam"
+          }
+        },
+        "result": {
+          "item": "asheriitsfarmerslife:dirt_large_dam"
+        }
+      }
+    }
+  ]
+}

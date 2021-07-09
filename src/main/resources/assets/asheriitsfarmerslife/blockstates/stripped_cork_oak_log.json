@@ -1,0 +1,7 @@
+{
+   "variants": {
+      "axis=y":  { "model": "asheriitsfarmerslife:block/logs/stripped_cork_oak_log" },
+      "axis=z":   { "model": "asheriitsfarmerslife:block/logs/stripped_cork_oak_log", "x": 90 },
+      "axis=x":   { "model": "asheriitsfarmerslife:block/logs/stripped_cork_oak_log", "x": 90, "y": 90 }
+   }
+}

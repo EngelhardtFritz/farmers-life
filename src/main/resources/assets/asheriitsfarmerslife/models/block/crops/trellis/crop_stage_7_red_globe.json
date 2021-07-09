@@ -1,0 +1,7 @@
+{
+	"parent": "asheriitsfarmerslife:block/crops/trellis/crop_stage_7_template",
+	"credit": "Asheriit",
+	"textures": {
+		"wine_grape": "asheriitsfarmerslife:blocks/crops/red_globe_grape"
+	}
+}

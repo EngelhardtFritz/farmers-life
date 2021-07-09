@@ -1,0 +1,80 @@
+{
+	"credit": "Asheriit",
+	"textures": {
+		"0": "minecraft:block/campfire_log",
+		"1": "minecraft:block/campfire_log_lit",
+		"particle": "minecraft:block/campfire_log_lit"
+	},
+	"elements": [
+		{
+			"name": "log_bot",
+			"from": [2, 0, 2.75],
+			"to": [14, 3, 5.75],
+			"faces": {
+				"north": {"uv": [0, 1, 16, 5], "texture": "#1"},
+				"east": {"uv": [0, 4, 4, 8], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [0, 1, 16, 5], "texture": "#1"},
+				"west": {"uv": [0, 4, 4, 8], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 4], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 4], "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"name": "log_bot",
+			"from": [2, 0, 10.25],
+			"to": [14, 3, 13.25],
+			"faces": {
+				"north": {"uv": [0, 1, 16, 5], "texture": "#1"},
+				"east": {"uv": [0, 4, 4, 8], "texture": "#0"},
+				"south": {"uv": [0, 1, 16, 5], "texture": "#1"},
+				"west": {"uv": [0, 4, 4, 8], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 4], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 4], "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"name": "log_top",
+			"from": [10.25, 2, 2],
+			"to": [13.25, 5, 14],
+			"faces": {
+				"north": {"uv": [0, 4, 4, 8], "texture": "#0"},
+				"east": {"uv": [0, 3, 16, 7], "texture": "#1"},
+				"south": {"uv": [0, 4, 4, 8], "texture": "#0"},
+				"west": {"uv": [0, 4, 16, 8], "texture": "#1"},
+				"up": {"uv": [0, 1, 16, 5], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 4], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"name": "log_top",
+			"from": [2.75, 2, 2],
+			"to": [5.75, 5, 14],
+			"faces": {
+				"north": {"uv": [0, 4, 4, 8], "texture": "#0"},
+				"east": {"uv": [0, 4, 16, 8], "texture": "#1"},
+				"south": {"uv": [0, 4, 4, 8], "texture": "#0"},
+				"west": {"uv": [0, 3, 16, 7], "texture": "#1"},
+				"up": {"uv": [0, 1, 16, 5], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 4], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"name": "log_mid_bot",
+			"from": [2, 0, 5.75],
+			"to": [14, 0.75, 10.25],
+			"faces": {
+				"east": {"uv": [0, 10, 6, 11], "texture": "#1"},
+				"west": {"uv": [0, 10, 6, 11], "texture": "#1"},
+				"up": {"uv": [0, 8, 16, 14], "texture": "#1"},
+				"down": {"uv": [0, 10, 16, 16], "rotation": 180, "texture": "#0", "cullface": "down"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "fireplace_lit",
+			"origin": [8, 8, 8],
+			"children": [0, 1, 2, 3, 4]
+		}
+	]
+}

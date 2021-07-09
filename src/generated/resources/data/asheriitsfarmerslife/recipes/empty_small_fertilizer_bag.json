@@ -1,0 +1,22 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shaped",
+  "group": "empty_fertilizer_bag",
+  "pattern": [
+    "#X#",
+    "#L#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:string"
+    },
+    "X": {
+      "item": "minecraft:paper"
+    },
+    "L": {
+      "tag": "forge:dyes/brown"
+    }
+  },
+  "result": {
+    "item": "asheriitsfarmerslife:empty_small_fertilizer_bag"
+  }
+}

@@ -1,0 +1,12 @@
+{
+   "type": "asheriitsfarmerslife:wine_press",
+   "ingredient": {
+      "item": "asheriitsfarmerslife:barbera_crop",
+      "count": 8
+   },
+   "result": {
+      "fluid": "asheriitsfarmerslife:barbera_must_fluid",
+      "amount": 200
+   },
+   "processSteps": 9
+}

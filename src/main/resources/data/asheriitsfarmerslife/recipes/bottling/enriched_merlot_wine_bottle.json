@@ -1,0 +1,26 @@
+{
+   "type": "asheriitsfarmerslife:bottling",
+   "ingredientItems": [
+      {
+         "item": "asheriitsfarmerslife:merlot_wine_bottle",
+         "count": 1
+      },
+      {
+         "item": "minecraft:redstone",
+         "count": 2
+      },
+      {
+         "item": "minecraft:glowstone",
+         "count": 1
+      },
+      {
+         "item": "minecraft:nether_wart",
+         "count": 2
+      }
+   ],
+   "result": {
+      "item": "asheriitsfarmerslife:enriched_merlot_wine",
+      "count": 1
+   },
+   "processTime": 300
+}

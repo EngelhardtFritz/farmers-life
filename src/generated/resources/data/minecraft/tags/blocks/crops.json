@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "asheriitsfarmerslife:peat_moss",
+    "#forge:crops/rice",
+    "#forge:crops/wine_grape",
+    "#forge:crops/corn"
+  ]
+}

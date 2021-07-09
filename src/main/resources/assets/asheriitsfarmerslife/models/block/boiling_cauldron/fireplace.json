@@ -1,0 +1,79 @@
+{
+	"credit": "Asheriit",
+	"textures": {
+		"fireplace": "minecraft:block/campfire_log",
+		"particle": "minecraft:block/campfire_log"
+	},
+	"elements": [
+		{
+			"name": "log_bot",
+			"from": [2, 0, 2.75],
+			"to": [14, 3, 5.75],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 4], "texture": "#fireplace"},
+				"east": {"uv": [0, 4, 4, 8], "texture": "#fireplace"},
+				"south": {"uv": [0, 0, 16, 4], "texture": "#fireplace"},
+				"west": {"uv": [0, 4, 4, 8], "texture": "#fireplace"},
+				"up": {"uv": [0, 0, 16, 4], "texture": "#fireplace"},
+				"down": {"uv": [0, 0, 16, 4], "texture": "#fireplace", "cullface": "down"}
+			}
+		},
+		{
+			"name": "log_bot",
+			"from": [2, 0, 10.25],
+			"to": [14, 3, 13.25],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 4], "texture": "#fireplace"},
+				"east": {"uv": [0, 4, 4, 8], "texture": "#fireplace"},
+				"south": {"uv": [0, 0, 16, 4], "texture": "#fireplace"},
+				"west": {"uv": [0, 4, 4, 8], "texture": "#fireplace"},
+				"up": {"uv": [0, 0, 16, 4], "texture": "#fireplace"},
+				"down": {"uv": [0, 0, 16, 4], "texture": "#fireplace", "cullface": "down"}
+			}
+		},
+		{
+			"name": "log_top",
+			"from": [10.25, 2, 2],
+			"to": [13.25, 5, 14],
+			"faces": {
+				"north": {"uv": [0, 4, 4, 8], "texture": "#fireplace"},
+				"east": {"uv": [0, 0, 16, 4], "texture": "#fireplace"},
+				"south": {"uv": [0, 4, 4, 8], "texture": "#fireplace"},
+				"west": {"uv": [0, 0, 16, 4], "texture": "#fireplace"},
+				"up": {"uv": [0, 0, 16, 4], "rotation": 90, "texture": "#fireplace"},
+				"down": {"uv": [0, 0, 16, 4], "rotation": 270, "texture": "#fireplace"}
+			}
+		},
+		{
+			"name": "log_top",
+			"from": [2.75, 2, 2],
+			"to": [5.75, 5, 14],
+			"faces": {
+				"north": {"uv": [0, 4, 4, 8], "texture": "#fireplace"},
+				"east": {"uv": [0, 0, 16, 4], "texture": "#fireplace"},
+				"south": {"uv": [0, 4, 4, 8], "texture": "#fireplace"},
+				"west": {"uv": [0, 0, 16, 4], "texture": "#fireplace"},
+				"up": {"uv": [0, 0, 16, 4], "rotation": 90, "texture": "#fireplace"},
+				"down": {"uv": [0, 0, 16, 4], "rotation": 270, "texture": "#fireplace"}
+			}
+		},
+		{
+			"name": "log_mid_bot",
+			"from": [2, 0, 5.75],
+			"to": [14, 0.75, 10.25],
+			"faces": {
+				"east": {"uv": [0, 9, 6, 10], "texture": "#fireplace"},
+				"west": {"uv": [0, 10, 6, 11], "texture": "#fireplace"},
+				"up": {"uv": [0, 10, 16, 16], "texture": "#fireplace"},
+				"down": {"uv": [0, 10, 16, 16], "rotation": 180, "texture": "#fireplace", "cullface": "down"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "fireplace",
+			"origin": [8, 8, 8],
+			"children": [0, 1, 2, 3, 4]
+		}
+	]
+}

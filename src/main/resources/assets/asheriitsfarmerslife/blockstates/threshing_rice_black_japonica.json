@@ -1,0 +1,7 @@
+{
+   "variants": {
+      "uses=2": { "model": "asheriitsfarmerslife:block/threshing/threshing_rice_black_japonica_stage1" },
+      "uses=1": { "model": "asheriitsfarmerslife:block/threshing/threshing_rice_black_japonica_stage2" },
+      "uses=0": { "model": "asheriitsfarmerslife:block/threshing/threshing_rice_black_japonica_stage3" }
+   }
+}

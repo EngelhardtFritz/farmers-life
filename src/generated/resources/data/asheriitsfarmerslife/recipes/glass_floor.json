@@ -1,0 +1,18 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shaped",
+  "group": "glass_floor",
+  "pattern": [
+    "###",
+    " # ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "asheriitsfarmerslife:glass_floor",
+    "count": 8
+  }
+}

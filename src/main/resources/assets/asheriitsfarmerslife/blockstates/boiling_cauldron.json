@@ -1,0 +1,70 @@
+{
+   "multipart": [
+      {
+         "when": { "OR": [
+            { "axis": "x" }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/boiling_cauldron/cauldron" }
+      },
+      {
+         "when": { "OR": [
+            { "axis": "z" }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/boiling_cauldron/cauldron", "y": 90 }
+      },
+
+
+      {
+         "when": { "OR": [
+            { "axis": "x", "lit": false }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/boiling_cauldron/fireplace" }
+      },
+      {
+         "when": { "OR": [
+            { "axis": "z", "lit": false }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/boiling_cauldron/fireplace", "y": 90 }
+      },
+
+
+      {
+         "when": { "OR": [
+            { "axis": "x", "lit": true }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/boiling_cauldron/fireplace_lit" }
+      },
+      {
+         "when": { "OR": [
+            { "axis": "z", "lit": true }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/boiling_cauldron/fireplace_lit", "y": 90 }
+      },
+      {
+         "when": { "OR": [
+            { "axis": "x", "lit": true }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/boiling_cauldron/fire" }
+      },
+      {
+         "when": { "OR": [
+            { "axis": "z", "lit": true }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/boiling_cauldron/fire", "y": 90 }
+      },
+
+
+      {
+         "when": { "OR": [
+            { "axis": "z", "has_lid": true }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/boiling_cauldron/lid" }
+      },
+      {
+         "when": { "OR": [
+            { "axis": "x", "has_lid": true }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/boiling_cauldron/lid", "y": 90 }
+      }
+   ]
+}

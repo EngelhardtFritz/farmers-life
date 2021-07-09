@@ -1,0 +1,112 @@
+{
+   "multipart": [
+      {
+         "when": { "OR": [
+            { "up": true },
+            { "up": false, "down": false, "north": false, "south": false, "west": false, "east": false }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/trellis/wood_trellis_bot" }
+      },
+      {
+         "when": { "OR": [
+            { "down": true },
+            { "up": false, "down": false, "north": false, "south": false, "west": false, "east": false }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/trellis/wood_trellis_top" }
+      },
+
+      {
+         "when": { "OR": [
+            { "north": true },
+            { "up": false, "down": false, "north": false, "south": false, "west": false, "east": false }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/trellis/wood_trellis" }
+      },
+      {
+         "when": { "OR": [
+            { "east": true },
+            { "up": false, "down": false, "north": false, "south": false, "west": false, "east": false }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/trellis/wood_trellis", "y": 90 }
+      },
+
+      {
+         "when": { "OR": [
+            { "south": true },
+            { "up": false, "down": false, "north": false, "south": false, "west": false, "east": false }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/trellis/wood_trellis_alt" }
+      },
+      {
+         "when": { "OR": [
+            { "west": true },
+            { "up": false, "down": false, "north": false, "south": false, "west": false, "east": false }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/trellis/wood_trellis_alt", "y": 90 }
+      },
+
+
+      {
+         "when": { "OR": [
+            { "north": false, "south": true },
+            { "west": true, "east": true },
+            { "west": false, "east": true },
+            { "west": true, "east": false },
+            { "up": true, "down": true, "north": false },
+            { "up": true, "down": false, "north": false, "south": false, "west": false, "east": false },
+            { "up": false, "down": true, "north": false, "south": false, "west": false, "east": false }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/trellis/wood_trellis_side" }
+      },
+      {
+         "when": { "OR": [
+            { "east": false, "west": true },
+            { "north": true, "south": true },
+            { "north": false, "south": true },
+            { "north": true, "south": false },
+            { "up": true, "down": true, "east": false },
+            { "up": true, "down": false, "north": false, "south": false, "west": false, "east": false },
+            { "up": false, "down": true, "north": false, "south": false, "west": false, "east": false }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/trellis/wood_trellis_side", "y": 90 }
+      },
+      {
+         "when": { "OR": [
+            { "south": false, "north": true },
+            { "west": true, "east": true },
+            { "west": false, "east": true },
+            { "west": true, "east": false },
+            { "up": true, "down": true, "south": false },
+            { "up": true, "down": false, "north": false, "south": false, "west": false, "east": false },
+            { "up": false, "down": true, "north": false, "south": false, "west": false, "east": false }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/trellis/wood_trellis_side", "y": 180 }
+      },
+      {
+         "when": { "OR": [
+            { "west": false, "east": true },
+            { "north": true, "south": true },
+            { "north": false, "south": true },
+            { "north": true, "south": false },
+            { "up": true, "down": true, "west": false },
+            { "up": true, "down": false, "north": false, "south": false, "west": false, "east": false },
+            { "up": false, "down": true, "north": false, "south": false, "west": false, "east": false }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/trellis/wood_trellis_side", "y": 270 }
+      },
+
+
+      {
+         "when": { "OR": [
+            { "up": false }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/trellis/wood_trellis_up" }
+      },
+      {
+         "when": { "OR": [
+            { "down": false }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/trellis/wood_trellis_down" }
+      }
+   ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shapeless",
+  "group": "wine_grapes",
+  "ingredients": [
+    {
+      "item": "asheriitsfarmerslife:seed_pouch"
+    },
+    {
+      "item": "asheriitsfarmerslife:riesling_crop"
+    }
+  ],
+  "result": {
+    "item": "asheriitsfarmerslife:riesling_seed",
+    "count": 2
+  }
+}

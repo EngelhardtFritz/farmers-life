@@ -1,0 +1,22 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shaped",
+  "pattern": [
+    "# #",
+    "# #",
+    "XLX"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "X": {
+      "tag": "minecraft:planks"
+    },
+    "L": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "asheriitsfarmerslife:fertilizer_composter"
+  }
+}

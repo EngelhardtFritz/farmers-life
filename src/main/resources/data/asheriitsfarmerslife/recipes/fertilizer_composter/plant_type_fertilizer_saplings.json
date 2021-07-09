@@ -1,0 +1,18 @@
+{
+   "type": "asheriitsfarmerslife:fertilizer_composter",
+   "inputIngredients": [
+      {
+         "tag": "minecraft:saplings",
+         "count": 12
+      }
+   ],
+   "primaryOutput": {
+      "item": "asheriitsfarmerslife:raw_plant_type_fertilizer",
+      "count": 1
+   },
+   "secondaryOutput": {
+      "item": "minecraft:bone_meal",
+      "count": 1
+   },
+   "processTime": 2400
+}

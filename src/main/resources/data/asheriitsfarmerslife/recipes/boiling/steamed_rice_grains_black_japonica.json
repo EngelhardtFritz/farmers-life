@@ -1,0 +1,17 @@
+{
+   "type": "asheriitsfarmerslife:boiling",
+   "inputIngredient": {
+      "item": "asheriitsfarmerslife:soaked_rice_grains_black_japonica",
+      "count": 1
+   },
+   "ingredientFluid": {
+      "fluid": "minecraft:water",
+      "amount": 50
+   },
+   "result": {
+      "item": "asheriitsfarmerslife:steamed_rice_grains_black_japonica",
+      "count": 1
+   },
+   "requiresLid": true,
+   "processTime": 400
+}

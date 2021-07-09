@@ -1,0 +1,8 @@
+{
+   "variants": {
+      "facing=north": { "model": "asheriitsfarmerslife:block/wine_rack/birch_wine_rack" },
+      "facing=east": { "model": "asheriitsfarmerslife:block/wine_rack/birch_wine_rack", "y": 90 },
+      "facing=south": { "model": "asheriitsfarmerslife:block/wine_rack/birch_wine_rack", "y": 180 },
+      "facing=west": { "model": "asheriitsfarmerslife:block/wine_rack/birch_wine_rack", "y": 270 }
+   }
+}

@@ -1,0 +1,67 @@
+{
+   "multipart": [
+      {
+         "when": { "facing": "north" },
+         "apply": { "model": "asheriitsfarmerslife:block/fermenting_barrel/fermentation_barrel" }
+      },
+      {
+         "when": { "facing": "east" },
+         "apply": { "model": "asheriitsfarmerslife:block/fermenting_barrel/fermentation_barrel", "y": 90 }
+      },
+      {
+         "when": { "facing": "south" },
+         "apply": { "model": "asheriitsfarmerslife:block/fermenting_barrel/fermentation_barrel", "y": 180 }
+      },
+      {
+         "when": { "facing": "west" },
+         "apply": { "model": "asheriitsfarmerslife:block/fermenting_barrel/fermentation_barrel", "y": 270 }
+      },
+
+      {
+         "when": { "facing": "north", "has_connection": true },
+         "apply": { "model": "asheriitsfarmerslife:block/fermenting_barrel/connector" }
+      },
+      {
+         "when": { "facing": "east", "has_connection": true },
+         "apply": { "model": "asheriitsfarmerslife:block/fermenting_barrel/connector", "y": 90 }
+      },
+      {
+         "when": { "facing": "south", "has_connection": true },
+         "apply": { "model": "asheriitsfarmerslife:block/fermenting_barrel/connector", "y": 180 }
+      },
+      {
+         "when": { "facing": "west", "has_connection": true },
+         "apply": { "model": "asheriitsfarmerslife:block/fermenting_barrel/connector", "y": 270 }
+      },
+
+      {
+         "when": { "OR":  [
+            { "facing": "north", "up": true },
+            { "facing": "south", "up": true }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/fermenting_barrel/stabilizer_top" }
+      },
+      {
+         "when": { "OR":  [
+            { "facing": "east", "up": true },
+            { "facing": "west", "up": true }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/fermenting_barrel/stabilizer_top", "y": 90 }
+      },
+
+      {
+         "when": { "OR":  [
+            { "facing": "north", "down": true },
+            { "facing": "south", "down": true }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/fermenting_barrel/stabilizer_bottom" }
+      },
+      {
+         "when": { "OR":  [
+            { "facing": "east", "down": true },
+            { "facing": "west", "down": true }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/fermenting_barrel/stabilizer_bottom", "y": 90 }
+      }
+   ]
+}

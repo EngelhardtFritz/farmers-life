@@ -1,0 +1,26 @@
+{
+	"credit": "Asheriit",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "minecraft:block/purple_stained_glass",
+		"particle": "minecraft:block/purple_stained_glass"
+	},
+	"elements": [
+		{
+			"name": "gfloor_full",
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "gfloor_full",
+			"origin": [8, 8, 8],
+			"children": [0]
+		}
+	]
+}

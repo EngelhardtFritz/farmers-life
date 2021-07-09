@@ -1,0 +1,8 @@
+{
+    "parent": "block/template_farmland",
+    "textures": {
+        "particle": "asheriitsfarmerslife:blocks/garden_dirt",
+        "dirt": "asheriitsfarmerslife:blocks/garden_dirt",
+        "top": "asheriitsfarmerslife:blocks/garden_farmland_fertile"
+    }
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "asheriitsfarmerslife:farmer_rice_in_husk"
+    ]
+  },
+  "criteria": {
+    "has_corn_husk": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "asheriitsfarmerslife:corn_husk"
+          }
+        ]
+      }
+    },
+    "has_rice_grains": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:grains/rice"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "asheriitsfarmerslife:farmer_rice_in_husk"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_corn_husk",
+      "has_rice_grains",
+      "has_the_recipe"
+    ]
+  ]
+}

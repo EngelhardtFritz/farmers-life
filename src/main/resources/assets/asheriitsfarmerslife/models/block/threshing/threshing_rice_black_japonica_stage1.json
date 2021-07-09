@@ -1,0 +1,7 @@
+{
+	"credit": "Asheriit",
+	"parent": "asheriitsfarmerslife:block/threshing/threshing_stage1",
+	"textures": {
+		"threshing": "asheriitsfarmerslife:blocks/threshing/threshing_rice_black_japonica"
+	}
+}

@@ -1,0 +1,6 @@
+{
+   "parent": "minecraft:block/cross",
+   "textures": {
+      "cross": "asheriitsfarmerslife:blocks/crops/corn/corn_top_stage2"
+   }
+}

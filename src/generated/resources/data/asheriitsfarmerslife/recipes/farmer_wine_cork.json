@@ -1,0 +1,13 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shapeless",
+  "group": "wine_cork",
+  "ingredients": [
+    {
+      "item": "asheriitsfarmerslife:cork_bark"
+    }
+  ],
+  "result": {
+    "item": "asheriitsfarmerslife:wine_cork",
+    "count": 2
+  }
+}

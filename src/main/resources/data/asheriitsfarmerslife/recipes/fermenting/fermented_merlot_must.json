@@ -1,0 +1,12 @@
+{
+   "type": "asheriitsfarmerslife:fermenting",
+   "ingredientFluid": {
+      "fluid": "asheriitsfarmerslife:merlot_must_fluid",
+      "amount": 2000
+   },
+   "outputFluid": {
+      "fluid": "asheriitsfarmerslife:fermented_merlot_must_fluid",
+      "amount": 2000
+   },
+   "processTime": 6000
+}

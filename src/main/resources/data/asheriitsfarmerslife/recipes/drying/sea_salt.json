@@ -1,0 +1,12 @@
+{
+   "type": "asheriitsfarmerslife:drying_machine",
+   "ingredientFluid": {
+      "fluid": "minecraft:water",
+      "amount": 500
+   },
+   "result": {
+      "item": "asheriitsfarmerslife:sea_salt",
+      "count": 1
+   },
+   "dryingTimeTotal": 400
+}

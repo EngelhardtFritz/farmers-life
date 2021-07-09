@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "compressed_raw_fertilizer_to_item",
+  "ingredients": [
+    {
+      "item": "asheriitsfarmerslife:compressed_raw_animal_waste_fertilizer"
+    }
+  ],
+  "result": {
+    "item": "asheriitsfarmerslife:raw_animal_waste_fertilizer",
+    "count": 9
+  }
+}

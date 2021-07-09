@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "asheriitsfarmerslife:small_water_tube"
+    },
+    {
+      "item": "asheriitsfarmerslife:small_watering_can_body"
+    },
+    {
+      "item": "asheriitsfarmerslife:watering_can_handle"
+    }
+  ],
+  "result": {
+    "item": "asheriitsfarmerslife:small_watering_can"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shaped",
+  "group": "stained_glass_floor",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "asheriitsfarmerslife:lime_stained_glass_floor"
+    },
+    "X": {
+      "tag": "forge:dyes/lime"
+    }
+  },
+  "result": {
+    "item": "asheriitsfarmerslife:lime_stained_glass_floor",
+    "count": 8
+  }
+}

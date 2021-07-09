@@ -1,0 +1,78 @@
+{
+	"credit": "Asheriit",
+	"textures": {
+		"2": "asheriitsfarmerslife:blocks/crops/wine_leaves",
+		"particle": "asheriitsfarmerslife:blocks/crops/wood_trellis_crop"
+	},
+	"elements": [
+		{
+			"name": "leaves",
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#2", "tintindex": 0},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#2", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#2", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#2", "tintindex": 0},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#2", "tintindex": 0},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#2", "tintindex": 0}
+			}
+		},
+		{
+			"name": "fruit_side",
+			"from": [3.8, 7, 0.6],
+			"to": [3.8, 16, 6.6],
+			"rotation": {"angle": -45, "axis": "y", "origin": [3.8, 11.5, 3.6]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 5], "texture": "#wine_grape"},
+				"east": {"uv": [13, 1, 2, 16], "texture": "#wine_grape"},
+				"south": {"uv": [0, 0, 0, 5], "texture": "#wine_grape"},
+				"west": {"uv": [2, 1, 13, 16], "texture": "#wine_grape"},
+				"up": {"uv": [0, 0, 4, 0], "rotation": 270, "texture": "#wine_grape"},
+				"down": {"uv": [0, 0, 4, 0], "rotation": 90, "texture": "#wine_grape"}
+			}
+		},
+		{
+			"name": "fruit_side",
+			"from": [0.8, 7, 3.6],
+			"to": [6.8, 16, 3.6],
+			"rotation": {"angle": -45, "axis": "y", "origin": [3.8, 11.5, 3.6]},
+			"faces": {
+				"north": {"uv": [2, 1, 13, 16], "texture": "#wine_grape"},
+				"east": {"uv": [0, 0, 0, 5], "texture": "#wine_grape"},
+				"south": {"uv": [13, 1, 2, 16], "texture": "#wine_grape"},
+				"west": {"uv": [0, 0, 0, 5], "texture": "#wine_grape"},
+				"up": {"uv": [0, 0, 4, 0], "texture": "#wine_grape"},
+				"down": {"uv": [0, 0, 4, 0], "texture": "#wine_grape"}
+			}
+		},
+		{
+			"name": "fruit_side",
+			"from": [11.8, 0, 9.6],
+			"to": [11.8, 9, 15.6],
+			"rotation": {"angle": -45, "axis": "y", "origin": [11.8, 4.5, 12.6]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 5], "texture": "#wine_grape"},
+				"east": {"uv": [13, 1, 2, 16], "texture": "#wine_grape"},
+				"south": {"uv": [0, 0, 0, 5], "texture": "#wine_grape"},
+				"west": {"uv": [2, 1, 13, 16], "texture": "#wine_grape"},
+				"up": {"uv": [0, 0, 4, 0], "rotation": 270, "texture": "#wine_grape"},
+				"down": {"uv": [0, 0, 4, 0], "rotation": 90, "texture": "#wine_grape"}
+			}
+		},
+		{
+			"name": "fruit_side",
+			"from": [8.8, 0, 12.6],
+			"to": [14.8, 9, 12.6],
+			"rotation": {"angle": -45, "axis": "y", "origin": [11.8, 4.5, 12.6]},
+			"faces": {
+				"north": {"uv": [2, 1, 13, 16], "texture": "#wine_grape"},
+				"east": {"uv": [0, 0, 0, 5], "texture": "#wine_grape"},
+				"south": {"uv": [13, 1, 2, 16], "texture": "#wine_grape"},
+				"west": {"uv": [0, 0, 0, 5], "texture": "#wine_grape"},
+				"up": {"uv": [0, 0, 4, 0], "texture": "#wine_grape"},
+				"down": {"uv": [0, 0, 4, 0], "texture": "#wine_grape"}
+			}
+		}
+	]
+}

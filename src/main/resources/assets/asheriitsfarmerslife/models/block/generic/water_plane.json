@@ -1,0 +1,16 @@
+{
+	"credit": "Asheriit",
+	"textures": {
+		"fluid": "asheriitsfarmerslife:blocks/fluids/water_slow_still",
+		"particle": "asheriitsfarmerslife:blocks/fluids/water_slow_still"
+	},
+	"elements": [
+		{
+			"from": [1, 0, 1],
+			"to": [15, 0, 15],
+			"faces": {
+				"up": {"uv": [1, 1, 15, 15], "texture": "#fluid", "tintindex": 0}
+			}
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "asheriitsfarmerslife:medium_animal_waste_fertilizer"
+    ]
+  },
+  "criteria": {
+    "has_compressed_fertilizer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "asheriitsfarmerslife:compressed_raw_animal_waste_fertilizer"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "asheriitsfarmerslife:medium_animal_waste_fertilizer"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_compressed_fertilizer",
+      "has_the_recipe"
+    ]
+  ]
+}

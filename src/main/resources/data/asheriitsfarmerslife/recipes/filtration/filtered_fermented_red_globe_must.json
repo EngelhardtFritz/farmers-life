@@ -1,0 +1,20 @@
+{
+   "type": "asheriitsfarmerslife:filtration",
+   "ingredientFluid": {
+      "fluid": "asheriitsfarmerslife:fermented_red_globe_must_fluid",
+      "amount": 200
+   },
+   "ingredientItem": {
+      "item": "asheriitsfarmerslife:paper_fluid_filter",
+      "count": 1
+   },
+   "outputFluid": {
+      "fluid": "asheriitsfarmerslife:filtered_fermented_red_globe_must_fluid",
+      "amount": 200
+   },
+   "outputItemStack": {
+      "item": "asheriitsfarmerslife:grape_waste",
+      "probability": 60
+   },
+   "processTime": 600
+}

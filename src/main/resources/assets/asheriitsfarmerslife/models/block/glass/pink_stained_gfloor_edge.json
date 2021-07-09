@@ -1,0 +1,58 @@
+{
+	"credit": "Asheriit",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "minecraft:block/pink_stained_glass",
+		"1": "asheriitsfarmerslife:blocks/pink_stained_glass_floor_top",
+		"particle": "minecraft:block/pink_stained_glass"
+	},
+	"elements": [
+		{
+			"name": "gfloor_cube",
+			"from": [7, 0, 0],
+			"to": [16, 16, 9],
+			"faces": {
+				"south": {"uv": [7, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 9, 16], "texture": "#0"},
+				"up": {"uv": [0, 7, 9, 16], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [0, 7, 9, 16], "rotation": 270, "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, -2, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, -2, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_righthand": {
+			"translation": [1.25, -0.25, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_lefthand": {
+			"translation": [1.25, -0.25, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"ground": {
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [45, 45, 0],
+			"scale": [0.82, 0.82, 0.82]
+		},
+		"fixed": {
+			"rotation": [0, -90, 0],
+			"translation": [0, 0, 3]
+		}
+	},
+	"groups": [
+		{
+			"name": "gfloor_edge",
+			"origin": [12, 8, 4],
+			"children": [0]
+		}
+	]
+}

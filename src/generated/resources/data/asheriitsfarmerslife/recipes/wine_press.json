@@ -1,0 +1,25 @@
+{
+  "type": "asheriitsfarmerslife:farmer_shaped",
+  "pattern": [
+    " # ",
+    " X ",
+    "MLM"
+  ],
+  "key": {
+    "#": {
+      "item": "asheriitsfarmerslife:wine_press_piston"
+    },
+    "X": {
+      "item": "asheriitsfarmerslife:wine_press_mount"
+    },
+    "L": {
+      "item": "asheriitsfarmerslife:stomping_barrel"
+    },
+    "M": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "asheriitsfarmerslife:wood_wine_press"
+  }
+}

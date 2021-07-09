@@ -1,0 +1,91 @@
+{
+   "multipart": [
+      {
+         "when": { "age": 0 },
+         "apply": {"model": "asheriitsfarmerslife:block/crops/rice/rice_stage_0"}
+      },
+      {
+         "when": { "age": 1 },
+         "apply": {"model": "asheriitsfarmerslife:block/crops/rice/rice_stage_1"}
+      },
+      {
+         "when": { "age": 2 },
+         "apply": {"model": "asheriitsfarmerslife:block/crops/rice/rice_stage_2"}
+      },
+      {
+         "when": { "age": 3 },
+         "apply": {"model": "asheriitsfarmerslife:block/crops/rice/rice_stage_3"}
+      },
+      {
+         "when": { "age": 4 },
+         "apply": {"model": "asheriitsfarmerslife:block/crops/rice/rice_stage_4_yamadanishiki"}
+      },
+      {
+         "when": { "age": 5 },
+         "apply": {"model": "asheriitsfarmerslife:block/crops/rice/rice_stage_5_yamadanishiki"}
+      },
+      {
+         "when": { "OR": [
+            { "north": false, "east": false, "south": false, "west": false },
+            { "north": true }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/dam/grass_small_dam_side" }
+      },
+      {
+         "when": { "OR": [
+            { "north": false, "east": false, "south": false, "west": false },
+            { "east": true }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/dam/grass_small_dam_side", "y": 90 }
+      },
+      {
+         "when": { "OR": [
+            { "north": false, "east": false, "south": false, "west": false },
+            { "south": true }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/dam/grass_small_dam_side", "y": 180 }
+      },
+      {
+         "when": { "OR": [
+            { "north": false, "east": false, "south": false, "west": false },
+            { "west": true }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/dam/grass_small_dam_side", "y": 270 }
+      },
+
+
+
+      {
+         "when": { "OR": [
+            { "north": false, "east": false, "south": false, "west": false },
+            { "north": true },
+            { "east": true }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/dam/grass_small_dam_pillar" }
+      },
+      {
+         "when": { "OR": [
+            { "north": false, "east": false, "south": false, "west": false },
+            { "east": true },
+            { "south": true }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/dam/grass_small_dam_pillar", "y": 90 }
+      },
+      {
+         "when": { "OR": [
+            { "north": false, "east": false, "south": false, "west": false },
+            { "south": true },
+            { "west": true }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/dam/grass_small_dam_pillar", "y": 180 }
+      },
+      {
+         "when": { "OR": [
+            { "north": false, "east": false, "south": false, "west": false },
+            { "west": true },
+            { "north": true }
+         ]},
+         "apply": { "model": "asheriitsfarmerslife:block/dam/grass_small_dam_pillar", "y": 270 }
+      }
+   ]
+}
